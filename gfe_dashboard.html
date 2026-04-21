@@ -8,12 +8,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 :root {
-  --bg: #0f1117; --surface: #181c25; --surface2: #1e2330; --border: #2a3040;
-  --text: #e8eaf0; --text2: #7c8499; --text3: #4a5168;
-  --green: #22d3a0; --green-dim: rgba(34,211,160,0.12);
-  --yellow: #f5c842; --yellow-dim: rgba(245,200,66,0.12);
-  --red: #ff5c6a; --red-dim: rgba(255,92,106,0.12);
-  --blue: #4f8ef7; --purple: #a78bfa; --orange: #fb923c;
+  --bg: #f5f6f8; --surface: #ffffff; --surface2: #f0f2f5; --border: #e2e5ea;
+  --text: #1a1d23; --text2: #5a6070; --text3: #9099a8;
+  --green: #0d9e73; --green-dim: rgba(13,158,115,0.10);
+  --yellow: #d4940a; --yellow-dim: rgba(212,148,10,0.10);
+  --red: #e03d4e; --red-dim: rgba(224,61,78,0.10);
+  --blue: #2d6ef5; --purple: #7c5cdb; --orange: #e06c2a;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); padding: 24px; }
@@ -36,7 +36,7 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
 .apply-btn { font-family: 'DM Sans', sans-serif; font-size: 11px; font-weight: 600; padding: 6px 14px; border-radius: 6px; border: none; background: var(--blue); color: white; cursor: pointer; }
 .filter-note { font-size: 10px; color: var(--text3); margin-top: 6px; text-align: right; font-family: 'DM Mono', monospace; }
 .hero-row { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 14px; margin-bottom: 14px; }
-.hero-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 22px 24px; position: relative; overflow: hidden; }
+.hero-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 22px 24px; position: relative; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
 .hero-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; }
 .hero-card.sla::before { background: linear-gradient(90deg, var(--green), #00b37a); }
 .hero-card.ta::before { background: linear-gradient(90deg, var(--blue), #2563eb); }
@@ -52,7 +52,7 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
 .sla-bar-fill { height: 100%; border-radius: 2px; }
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
 .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 14px; }
-.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
 .card-title { font-size: 12px; font-weight: 600; color: var(--text); margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
 .card-title .ct-sub { font-size: 10px; color: var(--text3); font-weight: 400; font-family: 'DM Mono', monospace; }
 .chart-wrap { position: relative; height: 180px; }
@@ -80,7 +80,7 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
 .acct-label { font-size: 12px; color: var(--text2); }
 .acct-count { font-size: 13px; font-weight: 700; font-family: 'DM Mono', monospace; }
 .mono { font-family: 'DM Mono', monospace; }
-.drill-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 14px; overflow: hidden; }
+.drill-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 14px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
 .drill-header { padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; user-select: none; }
 .drill-header:hover { background: var(--surface2); }
 .drill-header-left { display: flex; align-items: center; gap: 10px; }
@@ -105,14 +105,14 @@ table.dt tbody tr { border-bottom: 1px solid var(--border); }
 table.dt tbody tr:hover { background: var(--surface2); }
 table.dt tbody td { padding: 7px 12px; }
 .pill { display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: 600; font-family: 'DM Mono', monospace; }
-.pill.int { background: rgba(34,211,160,.15); color: #22d3a0; }
-.pill.spk { background: rgba(79,142,247,.15); color: #4f8ef7; }
-.pill.brk { background: rgba(245,200,66,.15); color: #f5c842; }
-.pill.spk_int { background: rgba(167,139,250,.15); color: #a78bfa; }
-.pill.brk_int { background: rgba(251,146,60,.15); color: #fb923c; }
-.pill.spk_brk { background: rgba(245,200,66,.10); color: #f5c842; }
-.pill.all { background: rgba(167,139,250,.15); color: #a78bfa; }
-.pill.wknd { background: rgba(255,92,106,.12); color: #ff5c6a; }
+.pill.int { background: rgba(13,158,115,.12); color: #0d9e73; }
+.pill.spk { background: rgba(45,110,245,.12); color: #2d6ef5; }
+.pill.brk { background: rgba(212,148,10,.12); color: #d4940a; }
+.pill.spk_int { background: rgba(124,92,219,.12); color: #7c5cdb; }
+.pill.brk_int { background: rgba(224,108,42,.12); color: #e06c2a; }
+.pill.spk_brk { background: rgba(212,148,10,.08); color: #d4940a; }
+.pill.all { background: rgba(124,92,219,.12); color: #7c5cdb; }
+.pill.wknd { background: rgba(224,61,78,.10); color: #e03d4e; }
 .pill.wkday { background: var(--border); color: var(--text2); }
 .drill-footnote { font-size: 10px; color: var(--text3); padding: 10px 20px; font-family: 'DM Mono', monospace; border-top: 1px solid var(--border); }
 @media (max-width: 900px) { .hero-row, .grid-2, .grid-3 { grid-template-columns: 1fr; } }
@@ -241,7 +241,7 @@ const fmtTA = h => {
   if (h < 24) return h.toFixed(1)+'h';
   return (h/24).toFixed(1)+'d';
 };
-const kpiColor = p => p == null ? '#4a5168' : p >= 95 ? '#22d3a0' : p >= 90 ? '#f5c842' : '#ff5c6a';
+const kpiColor = p => p == null ? '#9099a8' : p >= 95 ? '#0d9e73' : p >= 90 ? '#d4940a' : '#e03d4e';
 
 const GROUP_LABELS = {
   internal:'Internal only', spakinect:'Spakinect only', breck:'Breck only',
@@ -249,7 +249,7 @@ const GROUP_LABELS = {
   spk_brk:'Spakinect & Breck', all:'All Three'
 };
 const GROUP_PILL = {internal:'int',spakinect:'spk',breck:'brk',spk_int:'spk_int',brk_int:'brk_int',spk_brk:'spk_brk',all:'all'};
-const GROUP_COLORS = {internal:'#22d3a0',spakinect:'#4f8ef7',breck:'#f5c842',spk_int:'#a78bfa',brk_int:'#fb923c',spk_brk:'#f5c842',all:'#a78bfa'};
+const GROUP_COLORS = {internal:'#0d9e73',spakinect:'#2d6ef5',breck:'#d4940a',spk_int:'#7c5cdb',brk_int:'#e06c2a',spk_brk:'#d4940a',all:'#7c5cdb'};
 
 function agg(weeks) {
   const a = {
@@ -400,8 +400,8 @@ function renderKpiTrend() {
       responsive:true, maintainAspectRatio:false,
       plugins: { legend:{display:false}, tooltip:{callbacks:{label:ctx=>` ${ctx.raw?.toFixed(1)}% (${RAW[chartWeeks[ctx.dataIndex]]?.kpi_met}/${RAW[chartWeeks[ctx.dataIndex]]?.kpi_eligible})`}} },
       scales: {
-        x:{ticks:{color:'#4a5168',font:{size:10}},grid:{color:'#2a3040'}},
-        y:{min:75,max:101,ticks:{color:'#4a5168',callback:v=>v+'%',font:{size:10}},grid:{color:'#2a3040'}}
+        x:{ticks:{color:'#9099a8',font:{size:10}},grid:{color:'#e2e5ea'}},
+        y:{min:75,max:101,ticks:{color:'#9099a8',callback:v=>v+'%',font:{size:10}},grid:{color:'#e2e5ea'}}
       }
     }
   });
@@ -410,7 +410,7 @@ function renderKpiTrend() {
   chart.draw = function() {
     orig();
     const ctx2=chart.ctx, y95=chart.scales.y.getPixelForValue(95);
-    ctx2.save(); ctx2.beginPath(); ctx2.strokeStyle='#22d3a055'; ctx2.lineWidth=1.5; ctx2.setLineDash([6,4]);
+    ctx2.save(); ctx2.beginPath(); ctx2.strokeStyle='#0d9e7355'; ctx2.lineWidth=1.5; ctx2.setLineDash([6,4]);
     ctx2.moveTo(chart.chartArea.left,y95); ctx2.lineTo(chart.chartArea.right,y95); ctx2.stroke(); ctx2.restore();
   };
   chart.draw();
@@ -431,20 +431,20 @@ function renderReviewer(data) {
   const brkPct = total ? (data.brk_total/total*100).toFixed(1) : 0;
   document.getElementById('reviewerBreakdown').innerHTML = `
     <div class="rev-section">
-      <div class="rev-group-header"><span style="color:#22d3a0">● Internal</span><span class="rev-group-total">${fmtN(data.int_total)}</span></div>
+      <div class="rev-group-header"><span style="color:#0d9e73">● Internal</span><span class="rev-group-total">${fmtN(data.int_total)}</span></div>
       <div style="font-size:10px;color:var(--text3);margin-bottom:6px">${intPct}% of total</div>
-      ${INTERNAL_R.map(r=>revRow(r.name,rc[r.email]||0,'#22d3a0')).join('')}
+      ${INTERNAL_R.map(r=>revRow(r.name,rc[r.email]||0,'#0d9e73')).join('')}
     </div>
     <hr class="rev-divider">
     <div class="rev-section">
-      <div class="rev-group-header"><span style="color:#4f8ef7">● Spakinect</span><span class="rev-group-total">${fmtN(data.spk_total)}</span></div>
+      <div class="rev-group-header"><span style="color:#2d6ef5">● Spakinect</span><span class="rev-group-total">${fmtN(data.spk_total)}</span></div>
       <div style="font-size:11px;color:var(--text3);padding:4px 0">14 reviewers · ${spkPct}% of total</div>
     </div>
     <hr class="rev-divider">
     <div class="rev-section">
-      <div class="rev-group-header"><span style="color:#f5c842">● Breck Aesthetics</span><span class="rev-group-total">${fmtN(data.brk_total)}</span></div>
+      <div class="rev-group-header"><span style="color:#d4940a">● Breck Aesthetics</span><span class="rev-group-total">${fmtN(data.brk_total)}</span></div>
       <div style="font-size:10px;color:var(--text3);margin-bottom:6px">${brkPct}% of total</div>
-      ${BRECK_R.map(r=>revRow(r.name,rc[r.email]||0,'#f5c842')).join('')}
+      ${BRECK_R.map(r=>revRow(r.name,rc[r.email]||0,'#d4940a')).join('')}
     </div>`;
 }
 
@@ -490,7 +490,7 @@ function renderCompletedByGroup(data) {
       <div class="acct-label"><span class="pill ${GROUP_PILL[g]||'int'}">${GROUP_LABELS[g]||g}</span></div>
       <div class="acct-count" style="color:${GROUP_COLORS[g]||'var(--text)'}">${fmtN(n)}</div>
     </div>
-    <div style="padding:1px 0 5px"><div style="height:2px;background:var(--border);border-radius:2px;overflow:hidden"><div style="width:${total?n/total*100:0}%;height:100%;background:${GROUP_COLORS[g]||'#4f8ef7'}"></div></div></div>
+    <div style="padding:1px 0 5px"><div style="height:2px;background:var(--border);border-radius:2px;overflow:hidden"><div style="width:${total?n/total*100:0}%;height:100%;background:${GROUP_COLORS[g]||'#2d6ef5'}"></div></div></div>
   `).join('') + `<div class="acct-row" style="border-top:2px solid var(--border);margin-top:4px"><span style="font-size:11px;font-weight:700">Total</span><span class="acct-count" style="color:var(--purple)">${fmtN(total)}</span></div>`;
 }
 
