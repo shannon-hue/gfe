@@ -194,10 +194,14 @@ fetch('gfe_data.json')
   .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
   .then(data => {
     MISS_RECORDS = data._miss_records || [];
+    MONTHLY = data._monthly || {};
     META = { accounts: data._accounts || {}, reviewer_totals: data._reviewer_totals || {} };
     const m = data._meta || {};
     // Store meta dates for quick filters
     window.DASH_META = m;
+    // Derive month keys from meta
+    m.this_month = m.this_month || '2026-04';
+    m.last_month = m.last_month || '2026-03';
     // Extract weekly data
     Object.keys(data).forEach(k => {
       if (k.startsWith('20')) RAW[k] = data[k];
@@ -223,7 +227,9 @@ fetch('gfe_data.json')
 
 // ── STATE ──
 let activeWeeks = [];
+let activeMonth = null;
 let activeQuick = 'all';
+let MONTHLY = {};
 let drillOpen = false;
 let drillFilters = { search: '', cat: '', wknd: false };
 let currentMiss = [];
@@ -283,6 +289,28 @@ function agg(weeks) {
   return a;
 }
 
+function aggFromMonthly(month) {
+  const d = MONTHLY[month];
+  if (!d) return agg([]);
+  const a = {
+    completed_total: d.completed_total||0,
+    completed_advance: d.completed_advance||0,
+    completed_lm: d.completed_lm||0,
+    completed_by_group: d.completed_by_group||{},
+    reviewer_counts: d.reviewer_counts||{},
+    kpi_eligible: d.kpi_eligible||0, kpi_met: d.kpi_met||0, kpi_missed: d.kpi_missed||0,
+    kpi_pct: d.kpi_pct||null, wknd_excl: d.wknd_excl||0,
+    lm_total: d.lm_total||0, lm_completed_before: d.lm_completed_before||0, lm_pct: d.lm_pct||null,
+    avg_ta: d.avg_ta_hrs||null, max_ta: d.max_ta_hrs||0,
+    qualiphy_count: 0, qualiphy_before: 0, kpi_qualiphy_save: 0,
+  };
+  a.int_total = [...INTERNAL_EMAILS].reduce((s,e)=>s+(a.reviewer_counts[e]||0),0);
+  a.brk_total = [...BRECK_EMAILS].reduce((s,e)=>s+(a.reviewer_counts[e]||0),0);
+  a.spk_total = a.completed_total - a.int_total - a.brk_total;
+  return a;
+}
+
+
 function getPriorWeeks(weeks) {
   if (!weeks.length) return [];
   return ALL_WEEKS.filter(w => w < weeks[0]).slice(-weeks.length);
@@ -303,16 +331,22 @@ function applyQuick(q) {
   event.target.classList.add('active');
   const m = window.DASH_META || {};
   if (q === 'thisweek') {
+    activeMonth = null;
     activeWeeks = ALL_WEEKS.filter(w => w === (m.this_week || ALL_WEEKS[ALL_WEEKS.length-1]));
   } else if (q === 'week') {
+    activeMonth = null;
     activeWeeks = ALL_WEEKS.filter(w => w === (m.last_week || ALL_WEEKS[ALL_WEEKS.length-2]));
   } else if (q === 'thismonth') {
+    activeMonth = m.this_month || '2026-04';
     activeWeeks = ALL_WEEKS.filter(w => w >= (m.this_month_start||'') && w <= (m.this_week||''));
   } else if (q === 'month') {
+    activeMonth = m.last_month || '2026-03';
     activeWeeks = ALL_WEEKS.filter(w => w >= (m.last_month_start||'') && w <= (m.last_month_end||''));
   } else if (q === '3month') {
+    activeMonth = null;
     activeWeeks = ALL_WEEKS.filter(w => w >= TREND_WEEKS[0] && w <= TREND_WEEKS[TREND_WEEKS.length-1]);
   } else {
+    activeMonth = null;
     activeWeeks = [...ALL_WEEKS];
   }
   document.getElementById('dateFrom').value = activeWeeks[0] || ALL_WEEKS[0];
@@ -323,6 +357,7 @@ function applyQuick(q) {
 function applyCustom() {
   const from = document.getElementById('dateFrom').value;
   const to = document.getElementById('dateTo').value;
+  activeMonth = null;
   document.querySelectorAll('.quick-btn').forEach(b => b.classList.remove('active'));
   activeWeeks = ALL_WEEKS.filter(w => {
     const sun = new Date(w + 'T12:00:00');
@@ -336,8 +371,19 @@ function applyCustom() {
 // ── RENDER ──
 function render() {
   if (!activeWeeks.length) activeWeeks = [...ALL_WEEKS];
-  const data = agg(activeWeeks);
-  const prior = agg(getPriorWeeks(activeWeeks));
+  // Use pre-aggregated monthly data for month filters (correct calendar month boundaries)
+  let data, prior;
+  if (activeMonth && MONTHLY[activeMonth]) {
+    data = aggFromMonthly(activeMonth);
+    // Prior month for trend
+    const months = Object.keys(MONTHLY).sort();
+    const idx = months.indexOf(activeMonth);
+    const priorMonth = idx > 0 ? months[idx-1] : null;
+    prior = priorMonth ? aggFromMonthly(priorMonth) : agg([]);
+  } else {
+    data = agg(activeWeeks);
+    prior = agg(getPriorWeeks(activeWeeks));
+  }
   renderHero(data, prior);
   renderKpiTrend();
   renderReviewer(data);
@@ -516,7 +562,12 @@ function renderQualiphy(data) {
 
 function renderDrill() {
   const activeSet = new Set(activeWeeks);
-  const miss = MISS_RECORDS.filter(r => {
+  // When month filter active, use monthly miss records directly
+  const missPool = (activeMonth && MONTHLY[activeMonth]) ? (MONTHLY[activeMonth].miss_records || MISS_RECORDS.filter(r => {
+    const apptMonth = r.appt.substring(0,7).replace('-','').substring(0,4) + '-' + r.appt.substring(5,7);
+    return r.appt.startsWith(activeMonth);
+  })) : MISS_RECORDS;
+  const miss = activeMonth ? MISS_RECORDS.filter(r => r.appt.startsWith(activeMonth)) : MISS_RECORDS.filter(r => {
     const apptDate = r.appt.split(' ')[0];
     const finDate = r.finished ? r.finished.split(' ')[0] : null;
     const bucketDate = finDate && finDate < apptDate ? finDate : apptDate;
