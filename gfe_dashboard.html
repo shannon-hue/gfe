@@ -339,9 +339,13 @@ function applyQuick(q) {
   } else if (q === 'thismonth') {
     activeMonth = m.this_month || '2026-04';
     activeWeeks = ALL_WEEKS.filter(w => w >= (m.this_month_start||'') && w <= (m.this_week||''));
+    const tmLabel = activeMonth ? new Date(activeMonth+'-15').toLocaleDateString('en-US',{month:'short',year:'numeric'}) : 'This Month';
+    event.target.textContent = tmLabel;
   } else if (q === 'month') {
     activeMonth = m.last_month || '2026-03';
     activeWeeks = ALL_WEEKS.filter(w => w >= (m.last_month_start||'') && w <= (m.last_month_end||''));
+    const lmLabel = activeMonth ? new Date(activeMonth+'-15').toLocaleDateString('en-US',{month:'short',year:'numeric'}) : 'Last Month';
+    event.target.textContent = lmLabel;
   } else if (q === '3month') {
     activeMonth = null;
     activeWeeks = ALL_WEEKS.filter(w => w >= TREND_WEEKS[0] && w <= TREND_WEEKS[TREND_WEEKS.length-1]);
@@ -349,8 +353,20 @@ function applyQuick(q) {
     activeMonth = null;
     activeWeeks = [...ALL_WEEKS];
   }
-  document.getElementById('dateFrom').value = activeWeeks[0] || ALL_WEEKS[0];
-  document.getElementById('dateTo').value = activeWeeks[activeWeeks.length-1] || ALL_WEEKS[ALL_WEEKS.length-1];
+  // Set date display correctly based on filter type
+  if (activeMonth) {
+    const [y,m] = activeMonth.split('-').map(Number);
+    document.getElementById('dateFrom').value = activeMonth + '-01';
+    document.getElementById('dateTo').value = new Date(y, m, 0).toISOString().split('T')[0];
+  } else if (activeWeeks.length === 1) {
+    document.getElementById('dateFrom').value = activeWeeks[0];
+    const sun = new Date(activeWeeks[0] + 'T12:00:00');
+    sun.setDate(sun.getDate() + 6);
+    document.getElementById('dateTo').value = sun.toISOString().split('T')[0];
+  } else {
+    document.getElementById('dateFrom').value = activeWeeks[0] || ALL_WEEKS[0];
+    document.getElementById('dateTo').value = activeWeeks[activeWeeks.length-1] || ALL_WEEKS[ALL_WEEKS.length-1];
+  }
   render();
 }
 
@@ -496,20 +512,22 @@ function renderReviewer(data) {
 
 function renderTiming(data) {
   const adv=data.completed_advance, lm=data.completed_lm, total=data.completed_total;
+  // Use adv+lm as denominator for % bars so they add to 100%
+  const classified = adv + lm;
   document.getElementById('submissionTiming').innerHTML = `
     <div class="timing-row">
       <div>
         <div class="timing-label" style="color:var(--green)">≥24h Standard submissions</div>
-        <div class="pct-bar-wrap"><div class="pct-bar-bg"><div class="pct-bar-fill" style="width:${total?adv/total*100:0}%;background:var(--green)"></div></div>
-        <span style="font-size:10px;color:var(--text3)">${total?((adv/total)*100).toFixed(0):0}% of completed</span></div>
+        <div class="pct-bar-wrap"><div class="pct-bar-bg"><div class="pct-bar-fill" style="width:${classified?adv/classified*100:0}%;background:var(--green)"></div></div>
+        <span style="font-size:10px;color:var(--text3)">${classified?((adv/classified)*100).toFixed(0):0}% of classified</span></div>
       </div>
       <div><div class="timing-main" style="color:var(--green)">${fmtN(adv)}</div><div class="timing-sub">completed by our team</div></div>
     </div>
     <div class="timing-row">
       <div>
         <div class="timing-label">&lt;24h Last-minute submissions</div>
-        <div class="pct-bar-wrap"><div class="pct-bar-bg"><div class="pct-bar-fill" style="width:${total?lm/total*100:0}%;background:var(--text3)"></div></div>
-        <span style="font-size:10px;color:var(--text3)">${total?((lm/total)*100).toFixed(0):0}% of completed</span></div>
+        <div class="pct-bar-wrap"><div class="pct-bar-bg"><div class="pct-bar-fill" style="width:${classified?lm/classified*100:0}%;background:var(--text3)"></div></div>
+        <span style="font-size:10px;color:var(--text3)">${classified?((lm/classified)*100).toFixed(0):0}% of classified</span></div>
       </div>
       <div><div class="timing-main">${fmtN(lm)}</div><div class="timing-sub">completed by our team</div></div>
     </div>
