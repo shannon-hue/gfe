@@ -237,6 +237,7 @@ let charts = {};
 
 const INTERNAL_EMAILS = new Set(['courtneydanielle22@yahoo.com','mchenfnp@gmail.com','gennydamato@gmail.com']);
 const BRECK_EMAILS = new Set(['breck+gfesupport@joinmoxie.com','erin.shannon+gfe@joinmoxie.com']);
+const SPAKINECT_EMAILS = new Set(['allison.h@spakinect.com','amber.b@spakinect.com','crystal.a@spakinect.com','erica.n@spakinect.com','helen.b@spakinect.com','ivy.c@spakinect.com','jade.s@spakinect.com','johan.k@spakinect.com','joseph.s@spakinect.com','lindsay.c@spakinect.com','maria.g@spakinect.com','nichole.v@spakinect.com','samantha.r@spakinect.com','stephanie.h@spakinect.com']);
 
 // ── HELPERS ──
 const fmtN = n => n == null ? '—' : n.toLocaleString();
@@ -285,7 +286,7 @@ function agg(weeks) {
   a.lm_pct = a.lm_total ? Math.round(a.lm_completed_before/a.lm_total*1000)/10 : null;
   a.int_total = [...INTERNAL_EMAILS].reduce((s,e)=>s+(a.reviewer_counts[e]||0),0);
   a.brk_total = [...BRECK_EMAILS].reduce((s,e)=>s+(a.reviewer_counts[e]||0),0);
-  a.spk_total = a.completed_total - a.int_total - a.brk_total;
+  a.spk_total = [...SPAKINECT_EMAILS].reduce((s,e)=>s+(a.reviewer_counts[e]||0),0);
   return a;
 }
 
@@ -306,7 +307,7 @@ function aggFromMonthly(month) {
   };
   a.int_total = [...INTERNAL_EMAILS].reduce((s,e)=>s+(a.reviewer_counts[e]||0),0);
   a.brk_total = [...BRECK_EMAILS].reduce((s,e)=>s+(a.reviewer_counts[e]||0),0);
-  a.spk_total = a.completed_total - a.int_total - a.brk_total;
+  a.spk_total = [...SPAKINECT_EMAILS].reduce((s,e)=>s+(a.reviewer_counts[e]||0),0);
   return a;
 }
 
