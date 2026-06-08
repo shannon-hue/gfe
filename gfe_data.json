@@ -9196,8 +9196,8 @@
     "lm_total": 309,
     "lm_completed_before": 203,
     "lm_pct": 65.7,
-    "avg_ta_hrs": null,
-    "max_ta_hrs": null,
+    "avg_ta_hrs": 53.9,
+    "max_ta_hrs": 720,
     "miss_records": [
       {
         "id": 229564,
@@ -9538,8 +9538,8 @@
     "lm_total": 242,
     "lm_completed_before": 125,
     "lm_pct": 51.7,
-    "avg_ta_hrs": null,
-    "max_ta_hrs": null,
+    "avg_ta_hrs": 34.0,
+    "max_ta_hrs": 720,
     "miss_records": [
       {
         "id": 233666,
@@ -9924,8 +9924,8 @@
     "lm_total": 401,
     "lm_completed_before": 246,
     "lm_pct": 61.3,
-    "avg_ta_hrs": null,
-    "max_ta_hrs": null,
+    "avg_ta_hrs": 40.4,
+    "max_ta_hrs": 720,
     "miss_records": [
       {
         "id": 238502,
