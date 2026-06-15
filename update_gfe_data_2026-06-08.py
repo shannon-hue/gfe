@@ -2,7 +2,7 @@
 """
 GFE Weekly Refresh — week of 2026-06-08 (Mon Jun 8 – Sun Jun 14)
 Generated: 2026-06-15
-Run: python3 update_gfe_data.py  (from ~/Documents/GitHub/gfe)
+Run: python3 update_gfe_data_2026-06-08.py  (from ~/Documents/GitHub/gfe)
 """
 
 import json, os

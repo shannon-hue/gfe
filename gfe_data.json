@@ -7486,6 +7486,86 @@
       "advance_fmt": "9d 6h",
       "finished": null,
       "completed_before": false
+    },
+    {
+      "id": 240241,
+      "client": "T. Fast",
+      "medspa": "Kopper Aesthetics",
+      "cat": "spakinect",
+      "submitted": "2026-06-05 18:38",
+      "appt": "2026-06-08 09:00",
+      "appt_day": "Mon",
+      "sub_day": "Fri",
+      "is_weekend_appt": false,
+      "is_weekend_sub": false,
+      "hrs_advance": 62.4,
+      "advance_fmt": "2d 14h",
+      "finished": null,
+      "completed_before": false
+    },
+    {
+      "id": 239024,
+      "client": "B. Ramsey",
+      "medspa": "Nurse Injector Brooke",
+      "cat": "spakinect",
+      "submitted": "2026-06-03 17:07",
+      "appt": "2026-06-08 22:30",
+      "appt_day": "Mon",
+      "sub_day": "Wed",
+      "is_weekend_appt": false,
+      "is_weekend_sub": false,
+      "hrs_advance": 125.4,
+      "advance_fmt": "5d 5h",
+      "finished": "2026-06-10 17:53",
+      "completed_before": false
+    },
+    {
+      "id": 240517,
+      "client": "B. Ogden",
+      "medspa": "Careen Aesthetics",
+      "cat": "spk_int",
+      "submitted": "2026-06-06 14:24",
+      "appt": "2026-06-09 13:30",
+      "appt_day": "Tue",
+      "sub_day": "Sat",
+      "is_weekend_appt": false,
+      "is_weekend_sub": true,
+      "hrs_advance": 71.1,
+      "advance_fmt": "2d 23h",
+      "finished": null,
+      "completed_before": false
+    },
+    {
+      "id": 231719,
+      "client": "E. Lara",
+      "medspa": "Wild Moon Collective",
+      "cat": "spakinect",
+      "submitted": "2026-05-19 22:00",
+      "appt": "2026-06-12 13:30",
+      "appt_day": "Fri",
+      "sub_day": "Tue",
+      "is_weekend_appt": false,
+      "is_weekend_sub": false,
+      "hrs_advance": 567.5,
+      "advance_fmt": "23d 15h",
+      "finished": null,
+      "completed_before": false
+    },
+    {
+      "id": 216507,
+      "client": "C. Brignole",
+      "medspa": "Rejuvenate Austin",
+      "cat": "spakinect",
+      "submitted": "2026-04-22 15:01",
+      "appt": "2026-06-13 12:45",
+      "appt_day": "Sat",
+      "sub_day": "Wed",
+      "is_weekend_appt": true,
+      "is_weekend_sub": false,
+      "hrs_advance": 1245.7,
+      "advance_fmt": "51d 21h",
+      "finished": null,
+      "completed_before": false
     }
   ],
   "_monthly": {
@@ -7702,14 +7782,14 @@
     }
   },
   "_meta": {
-    "refreshed": "2026-06-08",
-    "today": "2026-06-07",
-    "last_week": "2026-06-01",
-    "this_week": "2026-06-08",
+    "refreshed": "2026-06-15",
+    "today": "2026-06-14",
+    "last_week": "2026-06-08",
+    "this_week": "2026-06-15",
     "this_month": "2026-06",
     "last_month": "2026-05",
     "this_month_start": "2026-06-01",
-    "last_month_start": "2026-05-04",
+    "last_month_start": "2026-05-05",
     "last_month_end": "2026-05-25"
   },
   "2026-01-05": {
@@ -10198,5 +10278,47 @@
         "completed_before": false
       }
     ]
+  },
+  "2026-06-08": {
+    "completed_total": 1293,
+    "completed_advance": 864,
+    "completed_lm": 429,
+    "reviewer_counts": {
+      "allison.h@spakinect.com": 88,
+      "breck+gfesupport@joinmoxie.com": 11,
+      "courtneydanielle22@yahoo.com": 411,
+      "crystal.a@spakinect.com": 62,
+      "erica.n@spakinect.com": 20,
+      "erin.shannon+gfe@joinmoxie.com": 235,
+      "gennydamato@gmail.com": 31,
+      "helen.b@spakinect.com": 111,
+      "ivy.c@spakinect.com": 43,
+      "joseph.s@spakinect.com": 66,
+      "lindsay.c@spakinect.com": 125,
+      "mchenfnp@gmail.com": 42,
+      "samantha.r@spakinect.com": 18,
+      "stephanie.h@spakinect.com": 30
+    },
+    "completed_by_group": {
+      "all": 189,
+      "spk_int": 517,
+      "spakinect": 148,
+      "spk_brk": 118,
+      "internal": 47,
+      "breck": 2
+    },
+    "kpi_eligible": 715,
+    "kpi_met": 710,
+    "kpi_missed": 5,
+    "kpi_pct": 99.3,
+    "wknd_excl": 18,
+    "lm_total": 384,
+    "lm_completed_before": 339,
+    "lm_pct": 88.3,
+    "avg_ta_hrs": 5.3,
+    "max_ta_hrs": 720.0,
+    "qualiphy_count": 0,
+    "qualiphy_before": 0,
+    "kpi_qualiphy_save": 0
   }
 }
