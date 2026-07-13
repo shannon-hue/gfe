@@ -114,6 +114,11 @@ table.dt tbody td { padding: 7px 12px; }
 .pill.all { background: rgba(124,92,219,.12); color: #7c5cdb; }
 .pill.wknd { background: rgba(224,61,78,.10); color: #e03d4e; }
 .pill.wkday { background: var(--border); color: var(--text2); }
+.pill.seg-enterprise { background: rgba(124,92,219,.15); color: #7c5cdb; }
+.pill.seg-gold { background: rgba(212,148,10,.15); color: #b07b00; }
+.pill.seg-silver { background: rgba(90,96,112,.12); color: #5a6070; }
+.pill.seg-growth { background: rgba(13,158,115,.12); color: #0d9e73; }
+.pill.seg-momentum { background: rgba(45,110,245,.12); color: #2d6ef5; }
 .drill-footnote { font-size: 10px; color: var(--text3); padding: 10px 20px; font-family: 'DM Mono', monospace; border-top: 1px solid var(--border); }
 @media (max-width: 900px) { .hero-row, .grid-2, .grid-3 { grid-template-columns: 1fr; } }
 </style>
@@ -188,12 +193,13 @@ table.dt tbody td { padding: 7px 12px; }
 
 <script>
 // ── DATA LOADING ──
-let RAW = {}, MISS_RECORDS = [], META = {}, ALL_WEEKS = [], TREND_WEEKS = [];
+let RAW = {}, MISS_RECORDS = [], META = {}, ALL_WEEKS = [], TREND_WEEKS = [], SEGMENTS = {};
 
 fetch('gfe_data.json')
   .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
   .then(data => {
     MISS_RECORDS = data._miss_records || [];
+    SEGMENTS = data._segments || {};
     MONTHLY = data._monthly || {};
     META = { accounts: data._accounts || {}, reviewer_totals: data._reviewer_totals || {} };
     const m = data._meta || {};
@@ -635,6 +641,11 @@ const catPill = cat => {
   const L={internal:'Internal',spakinect:'Spakinect',breck:'Breck',spk_int:'Spk+Int',brk_int:'Brk+Int',spk_brk:'Spk+Brk',all:'All'};
   return `<span class="pill ${GROUP_PILL[cat]||'int'}">${L[cat]||cat}</span>`;
 };
+const segPill = seg => {
+  if (!seg) return '<span style="color:var(--text3)">—</span>';
+  const cls = {Enterprise:'seg-enterprise',Gold:'seg-gold',Silver:'seg-silver',Growth:'seg-growth',Momentum:'seg-momentum'}[seg] || '';
+  return `<span class="pill ${cls}">${seg}</span>`;
+};
 function applyDrillFilters(recs) {
   return recs.filter(r => {
     const s = ((r.medspa||'') + ' ' + (r.client||'')).toLowerCase();
@@ -659,13 +670,15 @@ function renderMissTable(recs) {
   if (!recs.length) { wrap.innerHTML = '<div style="padding:32px;text-align:center;color:var(--text3);font-size:12px">No records match.</div>'; return; }
   const sorted = [...recs].sort((a,b) => a.appt.localeCompare(b.appt));
   wrap.innerHTML = `<table class="dt"><thead><tr>
-    <th>Client</th><th>Medspa</th><th>Group</th><th>Appt Date</th><th>Appt Day</th>
+    <th>Client</th><th>Medspa</th><th>Segment</th><th>Group</th><th>Appt Date</th><th>Appt Day</th>
     <th>Submitted</th><th>Lead Time</th><th>Completed?</th>
   </tr></thead><tbody>${sorted.map(r => {
     const dayPill = r.is_weekend_appt ? `<span class="pill wknd">${r.appt_day} 🏖</span>` : `<span class="pill wkday">${r.appt_day}</span>`;
+    const seg = r.segment !== undefined ? r.segment : (SEGMENTS[r.medspa] ?? null);
     return `<tr>
       <td class="mono" style="color:var(--text2)">${r.client||'<span style="color:var(--text3)">—</span>'}</td>
       <td style="font-weight:600">${r.medspa}</td>
+      <td>${segPill(seg)}</td>
       <td>${catPill(r.cat)}</td>
       <td class="mono">${r.appt.split(' ')[0]}</td>
       <td>${dayPill}</td>

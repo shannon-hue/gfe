@@ -30,7 +30,8 @@
       "hrs_advance": 147.4,
       "advance_fmt": "6d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 159819,
@@ -46,7 +47,8 @@
       "hrs_advance": 188.8,
       "advance_fmt": "7d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 159852,
@@ -62,7 +64,8 @@
       "hrs_advance": 188.8,
       "advance_fmt": "7d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 160001,
@@ -78,7 +81,8 @@
       "hrs_advance": 85.8,
       "advance_fmt": "3d 13h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 160044,
@@ -94,7 +98,8 @@
       "hrs_advance": 145.2,
       "advance_fmt": "6d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 160377,
@@ -110,7 +115,8 @@
       "hrs_advance": 27.0,
       "advance_fmt": "1d 2h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 160491,
@@ -126,7 +132,8 @@
       "hrs_advance": 86.4,
       "advance_fmt": "3d 14h",
       "finished": "2026-01-08 09:03",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 160945,
@@ -142,7 +149,8 @@
       "hrs_advance": 47.9,
       "advance_fmt": "1d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 161033,
@@ -158,7 +166,8 @@
       "hrs_advance": 41.4,
       "advance_fmt": "1d 17h",
       "finished": "2026-03-06 13:25",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 161206,
@@ -174,7 +183,8 @@
       "hrs_advance": 31.2,
       "advance_fmt": "1d 7h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 161324,
@@ -190,7 +200,8 @@
       "hrs_advance": 98.0,
       "advance_fmt": "4d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 161048,
@@ -206,7 +217,8 @@
       "hrs_advance": 183.2,
       "advance_fmt": "7d 15h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 161566,
@@ -222,7 +234,8 @@
       "hrs_advance": 253.7,
       "advance_fmt": "10d 13h",
       "finished": "2026-01-17 11:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 163077,
@@ -238,7 +251,8 @@
       "hrs_advance": 112.0,
       "advance_fmt": "4d 16h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 163094,
@@ -254,7 +268,8 @@
       "hrs_advance": 162.5,
       "advance_fmt": "6d 18h",
       "finished": "2026-01-20 14:02",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 163141,
@@ -270,7 +285,8 @@
       "hrs_advance": 160.6,
       "advance_fmt": "6d 16h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 163200,
@@ -286,7 +302,8 @@
       "hrs_advance": 85.3,
       "advance_fmt": "3d 13h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 163317,
@@ -302,7 +319,8 @@
       "hrs_advance": 76.0,
       "advance_fmt": "3d 4h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 163550,
@@ -318,7 +336,8 @@
       "hrs_advance": 24.1,
       "advance_fmt": "1d",
       "finished": "2026-01-20 11:13",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 163566,
@@ -334,7 +353,8 @@
       "hrs_advance": 47.2,
       "advance_fmt": "1d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 163883,
@@ -350,7 +370,8 @@
       "hrs_advance": 47.2,
       "advance_fmt": "1d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 163989,
@@ -366,7 +387,8 @@
       "hrs_advance": 70.6,
       "advance_fmt": "2d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 165231,
@@ -382,7 +404,8 @@
       "hrs_advance": 44.6,
       "advance_fmt": "1d 20h",
       "finished": "2026-04-10 13:35",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 165255,
@@ -398,7 +421,8 @@
       "hrs_advance": 45.2,
       "advance_fmt": "1d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 165778,
@@ -414,7 +438,8 @@
       "hrs_advance": 24.3,
       "advance_fmt": "1d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 165988,
@@ -430,7 +455,8 @@
       "hrs_advance": 47.3,
       "advance_fmt": "1d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 166322,
@@ -446,7 +472,8 @@
       "hrs_advance": 68.3,
       "advance_fmt": "2d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 166814,
@@ -462,7 +489,8 @@
       "hrs_advance": 70.1,
       "advance_fmt": "2d 22h",
       "finished": "2026-01-21 12:44",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 167087,
@@ -478,7 +506,8 @@
       "hrs_advance": 49.8,
       "advance_fmt": "2d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 166533,
@@ -494,7 +523,8 @@
       "hrs_advance": 238.7,
       "advance_fmt": "9d 22h",
       "finished": "2026-02-20 19:36",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 167339,
@@ -510,7 +540,8 @@
       "hrs_advance": 214.1,
       "advance_fmt": "8d 22h",
       "finished": "2026-02-20 19:36",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 167388,
@@ -526,7 +557,8 @@
       "hrs_advance": 276.4,
       "advance_fmt": "11d 12h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 168852,
@@ -542,7 +574,8 @@
       "hrs_advance": 136.1,
       "advance_fmt": "5d 16h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 169245,
@@ -558,7 +591,8 @@
       "hrs_advance": 62.3,
       "advance_fmt": "2d 14h",
       "finished": "2026-01-26 08:05",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 169316,
@@ -574,7 +608,8 @@
       "hrs_advance": 112.2,
       "advance_fmt": "4d 16h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 169536,
@@ -590,7 +625,8 @@
       "hrs_advance": 89.6,
       "advance_fmt": "3d 17h",
       "finished": "2026-01-28 12:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 169670,
@@ -606,7 +642,8 @@
       "hrs_advance": 72.1,
       "advance_fmt": "3d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 169739,
@@ -622,7 +659,8 @@
       "hrs_advance": 93.0,
       "advance_fmt": "3d 21h",
       "finished": "2026-02-04 11:12",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 170108,
@@ -638,7 +676,8 @@
       "hrs_advance": 100.1,
       "advance_fmt": "4d 4h",
       "finished": "2026-01-31 12:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 170353,
@@ -654,7 +693,8 @@
       "hrs_advance": 61.2,
       "advance_fmt": "2d 13h",
       "finished": "2026-01-31 12:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 170399,
@@ -670,7 +710,8 @@
       "hrs_advance": 98.2,
       "advance_fmt": "4d 2h",
       "finished": "2026-02-20 19:37",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 170476,
@@ -686,7 +727,8 @@
       "hrs_advance": 31.4,
       "advance_fmt": "1d 7h",
       "finished": "2026-03-09 19:55",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 170570,
@@ -702,7 +744,8 @@
       "hrs_advance": 68.1,
       "advance_fmt": "2d 20h",
       "finished": "2026-01-31 15:53",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 170696,
@@ -718,7 +761,8 @@
       "hrs_advance": 49.1,
       "advance_fmt": "2d 1h",
       "finished": "2026-01-31 12:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 170699,
@@ -734,7 +778,8 @@
       "hrs_advance": 49.3,
       "advance_fmt": "2d 1h",
       "finished": "2026-01-31 12:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 170701,
@@ -750,7 +795,8 @@
       "hrs_advance": 40.0,
       "advance_fmt": "1d 16h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 170895,
@@ -766,7 +812,8 @@
       "hrs_advance": 42.9,
       "advance_fmt": "1d 18h",
       "finished": "2026-01-30 08:11",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 170970,
@@ -782,7 +829,8 @@
       "hrs_advance": 67.9,
       "advance_fmt": "2d 19h",
       "finished": "2026-01-31 12:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 171759,
@@ -798,7 +846,8 @@
       "hrs_advance": 43.1,
       "advance_fmt": "1d 19h",
       "finished": "2026-01-31 12:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 171930,
@@ -814,7 +863,8 @@
       "hrs_advance": 68.5,
       "advance_fmt": "2d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 172034,
@@ -830,7 +880,8 @@
       "hrs_advance": 44.9,
       "advance_fmt": "1d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 161516,
@@ -846,7 +897,8 @@
       "hrs_advance": 741.4,
       "advance_fmt": "30d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 164838,
@@ -862,7 +914,8 @@
       "hrs_advance": 504.7,
       "advance_fmt": "21d",
       "finished": "2026-04-08 20:09",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 164948,
@@ -878,7 +931,8 @@
       "hrs_advance": 577.2,
       "advance_fmt": "24d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 169949,
@@ -894,7 +948,8 @@
       "hrs_advance": 190.9,
       "advance_fmt": "7d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 171111,
@@ -910,7 +965,8 @@
       "hrs_advance": 123.4,
       "advance_fmt": "5d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 171224,
@@ -926,7 +982,8 @@
       "hrs_advance": 140.8,
       "advance_fmt": "5d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 171519,
@@ -942,7 +999,8 @@
       "hrs_advance": 220.0,
       "advance_fmt": "9d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 172014,
@@ -958,7 +1016,8 @@
       "hrs_advance": 182.4,
       "advance_fmt": "7d 14h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 172130,
@@ -974,7 +1033,8 @@
       "hrs_advance": 72.8,
       "advance_fmt": "3d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 172184,
@@ -990,7 +1050,8 @@
       "hrs_advance": 223.0,
       "advance_fmt": "9d 6h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 172445,
@@ -1006,7 +1067,8 @@
       "hrs_advance": 67.9,
       "advance_fmt": "2d 19h",
       "finished": "2026-02-03 23:27",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 172585,
@@ -1022,7 +1084,8 @@
       "hrs_advance": 109.7,
       "advance_fmt": "4d 13h",
       "finished": "2026-02-05 13:09",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 172801,
@@ -1038,7 +1101,8 @@
       "hrs_advance": 97.7,
       "advance_fmt": "4d 1h",
       "finished": "2026-02-13 13:39",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 172846,
@@ -1054,7 +1118,8 @@
       "hrs_advance": 73.6,
       "advance_fmt": "3d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 172935,
@@ -1070,7 +1135,8 @@
       "hrs_advance": 33.3,
       "advance_fmt": "1d 9h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 173184,
@@ -1086,7 +1152,8 @@
       "hrs_advance": 110.0,
       "advance_fmt": "4d 14h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 173264,
@@ -1102,7 +1169,8 @@
       "hrs_advance": 37.1,
       "advance_fmt": "1d 13h",
       "finished": "2026-02-21 17:14",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 173460,
@@ -1118,7 +1186,8 @@
       "hrs_advance": 103.3,
       "advance_fmt": "4d 7h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 173490,
@@ -1134,7 +1203,8 @@
       "hrs_advance": 103.2,
       "advance_fmt": "4d 7h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 173608,
@@ -1150,7 +1220,8 @@
       "hrs_advance": 113.7,
       "advance_fmt": "4d 17h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 173743,
@@ -1166,7 +1237,8 @@
       "hrs_advance": 94.4,
       "advance_fmt": "3d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 173793,
@@ -1182,7 +1254,8 @@
       "hrs_advance": 88.0,
       "advance_fmt": "3d 15h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 173998,
@@ -1198,7 +1271,8 @@
       "hrs_advance": 28.7,
       "advance_fmt": "1d 4h",
       "finished": "2026-02-10 15:28",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 173999,
@@ -1214,7 +1288,8 @@
       "hrs_advance": 49.7,
       "advance_fmt": "2d 1h",
       "finished": "2026-02-11 17:59",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 174033,
@@ -1230,7 +1305,8 @@
       "hrs_advance": 52.0,
       "advance_fmt": "2d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 174059,
@@ -1246,7 +1322,8 @@
       "hrs_advance": 68.2,
       "advance_fmt": "2d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 174144,
@@ -1262,7 +1339,8 @@
       "hrs_advance": 94.3,
       "advance_fmt": "3d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 174274,
@@ -1278,7 +1356,8 @@
       "hrs_advance": 74.6,
       "advance_fmt": "3d 2h",
       "finished": "2026-03-28 18:42",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 174316,
@@ -1294,7 +1373,8 @@
       "hrs_advance": 44.5,
       "advance_fmt": "1d 20h",
       "finished": "2026-02-17 17:29",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 174409,
@@ -1310,7 +1390,8 @@
       "hrs_advance": 87.9,
       "advance_fmt": "3d 15h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 174473,
@@ -1326,7 +1407,8 @@
       "hrs_advance": 35.3,
       "advance_fmt": "1d 11h",
       "finished": "2026-02-07 12:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 174481,
@@ -1342,7 +1424,8 @@
       "hrs_advance": 60.1,
       "advance_fmt": "2d 12h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 174962,
@@ -1358,7 +1441,8 @@
       "hrs_advance": 39.7,
       "advance_fmt": "1d 15h",
       "finished": "2026-02-28 17:47",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 175094,
@@ -1374,7 +1458,8 @@
       "hrs_advance": 35.1,
       "advance_fmt": "1d 11h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 175202,
@@ -1390,7 +1475,8 @@
       "hrs_advance": 25.3,
       "advance_fmt": "1d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 175235,
@@ -1406,7 +1492,8 @@
       "hrs_advance": 47.9,
       "advance_fmt": "1d 23h",
       "finished": "2026-02-15 12:47",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 175398,
@@ -1422,7 +1509,8 @@
       "hrs_advance": 48.2,
       "advance_fmt": "2d",
       "finished": "2026-02-18 06:41",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 175467,
@@ -1438,7 +1526,8 @@
       "hrs_advance": 43.7,
       "advance_fmt": "1d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 175475,
@@ -1454,7 +1543,8 @@
       "hrs_advance": 46.5,
       "advance_fmt": "1d 22h",
       "finished": "2026-02-15 12:51",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 175506,
@@ -1470,7 +1560,8 @@
       "hrs_advance": 44.7,
       "advance_fmt": "1d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 175658,
@@ -1486,7 +1577,8 @@
       "hrs_advance": 33.9,
       "advance_fmt": "1d 9h",
       "finished": "2026-02-09 08:52",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 175668,
@@ -1502,7 +1594,8 @@
       "hrs_advance": 27.5,
       "advance_fmt": "1d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 160857,
@@ -1518,7 +1611,8 @@
       "hrs_advance": 862.3,
       "advance_fmt": "35d 22h",
       "finished": "2026-03-17 13:58",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 170694,
@@ -1534,7 +1628,8 @@
       "hrs_advance": 337.7,
       "advance_fmt": "14d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 171832,
@@ -1550,7 +1645,8 @@
       "hrs_advance": 285.7,
       "advance_fmt": "11d 21h",
       "finished": "2026-02-24 17:52",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 171913,
@@ -1566,7 +1662,8 @@
       "hrs_advance": 336.2,
       "advance_fmt": "14d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 172988,
@@ -1582,7 +1679,8 @@
       "hrs_advance": 238.7,
       "advance_fmt": "9d 22h",
       "finished": "2026-02-16 12:35",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 173562,
@@ -1598,7 +1696,8 @@
       "hrs_advance": 171.6,
       "advance_fmt": "7d 3h",
       "finished": "2026-02-13 13:43",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 173815,
@@ -1614,7 +1713,8 @@
       "hrs_advance": 254.6,
       "advance_fmt": "10d 14h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 175422,
@@ -1630,7 +1730,8 @@
       "hrs_advance": 95.2,
       "advance_fmt": "3d 23h",
       "finished": "2026-02-11 16:33",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 175614,
@@ -1646,7 +1747,8 @@
       "hrs_advance": 204.7,
       "advance_fmt": "8d 12h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 175966,
@@ -1662,7 +1764,8 @@
       "hrs_advance": 116.8,
       "advance_fmt": "4d 20h",
       "finished": "2026-02-16 11:47",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 176168,
@@ -1678,7 +1781,8 @@
       "hrs_advance": 87.5,
       "advance_fmt": "3d 15h",
       "finished": "2026-02-21 18:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 176246,
@@ -1694,7 +1798,8 @@
       "hrs_advance": 98.2,
       "advance_fmt": "4d 2h",
       "finished": "2026-02-14 14:03",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 176247,
@@ -1710,7 +1815,8 @@
       "hrs_advance": 100.4,
       "advance_fmt": "4d 4h",
       "finished": "2026-02-11 13:21",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 176441,
@@ -1726,7 +1832,8 @@
       "hrs_advance": 49.7,
       "advance_fmt": "2d 1h",
       "finished": "2026-02-14 13:55",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 176575,
@@ -1742,7 +1849,8 @@
       "hrs_advance": 137.2,
       "advance_fmt": "5d 17h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 176742,
@@ -1758,7 +1866,8 @@
       "hrs_advance": 91.7,
       "advance_fmt": "3d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 176815,
@@ -1774,7 +1883,8 @@
       "hrs_advance": 94.4,
       "advance_fmt": "3d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 176927,
@@ -1790,7 +1900,8 @@
       "hrs_advance": 52.7,
       "advance_fmt": "2d 4h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": null
     },
     {
       "id": 177775,
@@ -1806,7 +1917,8 @@
       "hrs_advance": 70.4,
       "advance_fmt": "2d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 177843,
@@ -1822,7 +1934,8 @@
       "hrs_advance": 45.9,
       "advance_fmt": "1d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 178224,
@@ -1838,7 +1951,8 @@
       "hrs_advance": 50.7,
       "advance_fmt": "2d 2h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 178943,
@@ -1854,7 +1968,8 @@
       "hrs_advance": 25.3,
       "advance_fmt": "1d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 168311,
@@ -1870,7 +1985,8 @@
       "hrs_advance": 686.0,
       "advance_fmt": "28d 14h",
       "finished": "2026-02-25 18:35",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 171486,
@@ -1886,7 +2002,8 @@
       "hrs_advance": 483.8,
       "advance_fmt": "20d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 173645,
@@ -1902,7 +2019,8 @@
       "hrs_advance": 331.6,
       "advance_fmt": "13d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 174058,
@@ -1918,7 +2036,8 @@
       "hrs_advance": 384.2,
       "advance_fmt": "16d",
       "finished": "2026-02-21 17:48",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 174697,
@@ -1934,7 +2053,8 @@
       "hrs_advance": 341.8,
       "advance_fmt": "14d 5h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 174935,
@@ -1950,7 +2070,8 @@
       "hrs_advance": 398.2,
       "advance_fmt": "16d 14h",
       "finished": "2026-04-07 20:11",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 174939,
@@ -1966,7 +2087,8 @@
       "hrs_advance": 305.0,
       "advance_fmt": "12d 17h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 175500,
@@ -1982,7 +2104,8 @@
       "hrs_advance": 358.9,
       "advance_fmt": "14d 22h",
       "finished": "2026-02-25 17:48",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 175508,
@@ -1998,7 +2121,8 @@
       "hrs_advance": 358.7,
       "advance_fmt": "14d 22h",
       "finished": "2026-02-26 08:22",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 177568,
@@ -2014,7 +2138,8 @@
       "hrs_advance": 169.3,
       "advance_fmt": "7d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 178238,
@@ -2030,7 +2155,8 @@
       "hrs_advance": 218.1,
       "advance_fmt": "9d 2h",
       "finished": "2026-03-31 10:09",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 178622,
@@ -2046,7 +2172,8 @@
       "hrs_advance": 215.9,
       "advance_fmt": "8d 23h",
       "finished": "2026-04-08 12:20",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 178810,
@@ -2062,7 +2189,8 @@
       "hrs_advance": 171.4,
       "advance_fmt": "7d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 179048,
@@ -2078,7 +2206,8 @@
       "hrs_advance": 141.0,
       "advance_fmt": "5d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 179399,
@@ -2094,7 +2223,8 @@
       "hrs_advance": 125.0,
       "advance_fmt": "5d 5h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 179776,
@@ -2110,7 +2240,8 @@
       "hrs_advance": 92.3,
       "advance_fmt": "3d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 180740,
@@ -2126,7 +2257,8 @@
       "hrs_advance": 52.6,
       "advance_fmt": "2d 4h",
       "finished": "2026-02-19 13:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 181534,
@@ -2142,7 +2274,8 @@
       "hrs_advance": 94.1,
       "advance_fmt": "3d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 181537,
@@ -2158,7 +2291,8 @@
       "hrs_advance": 117.1,
       "advance_fmt": "4d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 181538,
@@ -2174,7 +2308,8 @@
       "hrs_advance": 117.1,
       "advance_fmt": "4d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 182420,
@@ -2190,7 +2325,8 @@
       "hrs_advance": 51.8,
       "advance_fmt": "2d 3h",
       "finished": "2026-03-02 11:39",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 182659,
@@ -2206,7 +2342,8 @@
       "hrs_advance": 26.7,
       "advance_fmt": "1d 2h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 164104,
@@ -2222,7 +2359,8 @@
       "hrs_advance": 1076.8,
       "advance_fmt": "44d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 175649,
@@ -2238,7 +2376,8 @@
       "hrs_advance": 499.5,
       "advance_fmt": "20d 19h",
       "finished": "2026-02-28 17:50",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 175990,
@@ -2254,7 +2393,8 @@
       "hrs_advance": 528.3,
       "advance_fmt": "22d",
       "finished": "2026-04-01 13:55",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 177500,
@@ -2270,7 +2410,8 @@
       "hrs_advance": 410.5,
       "advance_fmt": "17d 2h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 177769,
@@ -2286,7 +2427,8 @@
       "hrs_advance": 406.4,
       "advance_fmt": "16d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 180729,
@@ -2302,7 +2444,8 @@
       "hrs_advance": 170.1,
       "advance_fmt": "7d 2h",
       "finished": "2026-02-23 14:39",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 182383,
@@ -2318,7 +2461,8 @@
       "hrs_advance": 113.3,
       "advance_fmt": "4d 17h",
       "finished": "2026-02-26 08:48",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 182990,
@@ -2334,7 +2478,8 @@
       "hrs_advance": 134.1,
       "advance_fmt": "5d 14h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 182993,
@@ -2350,7 +2495,8 @@
       "hrs_advance": 135.5,
       "advance_fmt": "5d 15h",
       "finished": "2026-03-03 18:34",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 184474,
@@ -2366,7 +2512,8 @@
       "hrs_advance": 51.2,
       "advance_fmt": "2d 3h",
       "finished": "2026-03-03 18:30",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 184728,
@@ -2382,7 +2529,8 @@
       "hrs_advance": 66.9,
       "advance_fmt": "2d 18h",
       "finished": "2026-03-12 10:36",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 185247,
@@ -2398,7 +2546,8 @@
       "hrs_advance": 72.7,
       "advance_fmt": "3d",
       "finished": "2026-03-17 10:53",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 185264,
@@ -2414,7 +2563,8 @@
       "hrs_advance": 29.3,
       "advance_fmt": "1d 5h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 185371,
@@ -2430,7 +2580,8 @@
       "hrs_advance": 68.4,
       "advance_fmt": "2d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 185420,
@@ -2446,7 +2597,8 @@
       "hrs_advance": 97.2,
       "advance_fmt": "4d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 185752,
@@ -2462,7 +2614,8 @@
       "hrs_advance": 34.6,
       "advance_fmt": "1d 10h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 186401,
@@ -2478,7 +2631,8 @@
       "hrs_advance": 27.9,
       "advance_fmt": "1d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 186456,
@@ -2494,7 +2648,8 @@
       "hrs_advance": 28.1,
       "advance_fmt": "1d 4h",
       "finished": "2026-03-04 08:37",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 186559,
@@ -2510,7 +2665,8 @@
       "hrs_advance": 28.7,
       "advance_fmt": "1d 4h",
       "finished": "2026-03-04 16:04",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 186695,
@@ -2526,7 +2682,8 @@
       "hrs_advance": 47.3,
       "advance_fmt": "1d 23h",
       "finished": "2026-03-09 17:25",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 187184,
@@ -2542,7 +2699,8 @@
       "hrs_advance": 25.1,
       "advance_fmt": "1d 1h",
       "finished": "2026-03-11 12:17",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 175317,
@@ -2558,7 +2716,8 @@
       "hrs_advance": 672.1,
       "advance_fmt": "28d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 176476,
@@ -2574,7 +2733,8 @@
       "hrs_advance": 649.7,
       "advance_fmt": "27d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 176996,
@@ -2590,7 +2750,8 @@
       "hrs_advance": 600.3,
       "advance_fmt": "25d",
       "finished": "2026-04-02 09:49",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 177656,
@@ -2606,7 +2767,8 @@
       "hrs_advance": 501.6,
       "advance_fmt": "20d 21h",
       "finished": "2026-03-26 16:36",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 178857,
@@ -2622,7 +2784,8 @@
       "hrs_advance": 554.6,
       "advance_fmt": "23d 2h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 179897,
@@ -2638,7 +2801,8 @@
       "hrs_advance": 518.5,
       "advance_fmt": "21d 14h",
       "finished": "2026-03-24 11:09",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 181789,
@@ -2654,7 +2818,8 @@
       "hrs_advance": 352.6,
       "advance_fmt": "14d 16h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 183046,
@@ -2670,7 +2835,8 @@
       "hrs_advance": 374.0,
       "advance_fmt": "15d 14h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 183541,
@@ -2686,7 +2852,8 @@
       "hrs_advance": 335.3,
       "advance_fmt": "13d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 184197,
@@ -2702,7 +2869,8 @@
       "hrs_advance": 214.9,
       "advance_fmt": "8d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 185597,
@@ -2718,7 +2886,8 @@
       "hrs_advance": 187.4,
       "advance_fmt": "7d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 185943,
@@ -2734,7 +2903,8 @@
       "hrs_advance": 239.0,
       "advance_fmt": "9d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 185975,
@@ -2750,7 +2920,8 @@
       "hrs_advance": 216.0,
       "advance_fmt": "8d 23h",
       "finished": "2026-03-11 08:46",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 186292,
@@ -2766,7 +2937,8 @@
       "hrs_advance": 182.2,
       "advance_fmt": "7d 14h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 186893,
@@ -2782,7 +2954,8 @@
       "hrs_advance": 187.2,
       "advance_fmt": "7d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 187027,
@@ -2798,7 +2971,8 @@
       "hrs_advance": 119.6,
       "advance_fmt": "4d 23h",
       "finished": "2026-03-04 09:02",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 187160,
@@ -2814,7 +2988,8 @@
       "hrs_advance": 194.0,
       "advance_fmt": "8d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 187290,
@@ -2830,7 +3005,8 @@
       "hrs_advance": 117.2,
       "advance_fmt": "4d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 187566,
@@ -2846,7 +3022,8 @@
       "hrs_advance": 183.0,
       "advance_fmt": "7d 15h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 187768,
@@ -2862,7 +3039,8 @@
       "hrs_advance": 148.0,
       "advance_fmt": "6d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 188000,
@@ -2878,7 +3056,8 @@
       "hrs_advance": 26.6,
       "advance_fmt": "1d 2h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 188260,
@@ -2894,7 +3073,8 @@
       "hrs_advance": 85.9,
       "advance_fmt": "3d 13h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 188505,
@@ -2910,7 +3090,8 @@
       "hrs_advance": 150.2,
       "advance_fmt": "6d 6h",
       "finished": "2026-03-08 20:06",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 188653,
@@ -2926,7 +3107,8 @@
       "hrs_advance": 95.4,
       "advance_fmt": "3d 23h",
       "finished": "2026-03-09 19:42",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 188669,
@@ -2942,7 +3124,8 @@
       "hrs_advance": 141.5,
       "advance_fmt": "5d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 189368,
@@ -2958,7 +3141,8 @@
       "hrs_advance": 67.5,
       "advance_fmt": "2d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 189464,
@@ -2974,7 +3158,8 @@
       "hrs_advance": 62.7,
       "advance_fmt": "2d 14h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 189950,
@@ -2990,7 +3175,8 @@
       "hrs_advance": 43.9,
       "advance_fmt": "1d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 190046,
@@ -3006,7 +3192,8 @@
       "hrs_advance": 42.0,
       "advance_fmt": "1d 17h",
       "finished": "2026-03-06 13:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": null
     },
     {
       "id": 190348,
@@ -3022,7 +3209,8 @@
       "hrs_advance": 81.9,
       "advance_fmt": "3d 9h",
       "finished": "2026-03-13 18:05",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 190478,
@@ -3038,7 +3226,8 @@
       "hrs_advance": 50.3,
       "advance_fmt": "2d 2h",
       "finished": "2026-03-07 16:13",
-      "completed_before": false
+      "completed_before": false,
+      "segment": null
     },
     {
       "id": 190605,
@@ -3054,7 +3243,8 @@
       "hrs_advance": 47.6,
       "advance_fmt": "1d 23h",
       "finished": "2026-04-20 13:18",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 190641,
@@ -3070,7 +3260,8 @@
       "hrs_advance": 47.1,
       "advance_fmt": "1d 23h",
       "finished": "2026-03-27 17:27",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 190711,
@@ -3086,7 +3277,8 @@
       "hrs_advance": 44.4,
       "advance_fmt": "1d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 190737,
@@ -3102,7 +3294,8 @@
       "hrs_advance": 73.3,
       "advance_fmt": "3d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 190745,
@@ -3118,7 +3311,8 @@
       "hrs_advance": 43.4,
       "advance_fmt": "1d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 190772,
@@ -3134,7 +3328,8 @@
       "hrs_advance": 44.1,
       "advance_fmt": "1d 20h",
       "finished": "2026-04-20 13:20",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 191030,
@@ -3150,7 +3345,8 @@
       "hrs_advance": 27.8,
       "advance_fmt": "1d 3h",
       "finished": "2026-04-10 15:05",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 176277,
@@ -3166,7 +3362,8 @@
       "hrs_advance": 822.8,
       "advance_fmt": "34d 6h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 176680,
@@ -3182,7 +3379,8 @@
       "hrs_advance": 683.9,
       "advance_fmt": "28d 11h",
       "finished": "2026-03-13 18:54",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 177466,
@@ -3198,7 +3396,8 @@
       "hrs_advance": 733.6,
       "advance_fmt": "30d 13h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 180011,
@@ -3214,7 +3413,8 @@
       "hrs_advance": 624.9,
       "advance_fmt": "26d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 180208,
@@ -3230,7 +3430,8 @@
       "hrs_advance": 545.2,
       "advance_fmt": "22d 17h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 180642,
@@ -3246,7 +3447,8 @@
       "hrs_advance": 507.8,
       "advance_fmt": "21d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 181070,
@@ -3262,7 +3464,8 @@
       "hrs_advance": 598.7,
       "advance_fmt": "24d 22h",
       "finished": "2026-04-15 18:23",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 182530,
@@ -3278,7 +3481,8 @@
       "hrs_advance": 436.0,
       "advance_fmt": "18d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 182766,
@@ -3294,7 +3498,8 @@
       "hrs_advance": 573.1,
       "advance_fmt": "23d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 182794,
@@ -3310,7 +3515,8 @@
       "hrs_advance": 430.2,
       "advance_fmt": "17d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 184215,
@@ -3326,7 +3532,8 @@
       "hrs_advance": 454.4,
       "advance_fmt": "18d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 184995,
@@ -3342,7 +3549,8 @@
       "hrs_advance": 322.9,
       "advance_fmt": "13d 10h",
       "finished": "2026-03-11 12:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 186256,
@@ -3358,7 +3566,8 @@
       "hrs_advance": 371.8,
       "advance_fmt": "15d 11h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 186261,
@@ -3374,7 +3583,8 @@
       "hrs_advance": 281.7,
       "advance_fmt": "11d 17h",
       "finished": "2026-03-09 16:50",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 188784,
@@ -3390,7 +3600,8 @@
       "hrs_advance": 158.9,
       "advance_fmt": "6d 14h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 190023,
@@ -3406,7 +3617,8 @@
       "hrs_advance": 189.6,
       "advance_fmt": "7d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 190237,
@@ -3422,7 +3634,8 @@
       "hrs_advance": 176.0,
       "advance_fmt": "7d 8h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 190352,
@@ -3438,7 +3651,8 @@
       "hrs_advance": 171.8,
       "advance_fmt": "7d 3h",
       "finished": "2026-04-21 16:04",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 190410,
@@ -3454,7 +3668,8 @@
       "hrs_advance": 122.2,
       "advance_fmt": "5d 2h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 190453,
@@ -3470,7 +3685,8 @@
       "hrs_advance": 97.1,
       "advance_fmt": "4d 1h",
       "finished": "2026-04-18 09:15",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 190706,
@@ -3486,7 +3702,8 @@
       "hrs_advance": 93.6,
       "advance_fmt": "3d 21h",
       "finished": "2026-03-09 22:06",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 190834,
@@ -3502,7 +3719,8 @@
       "hrs_advance": 85.9,
       "advance_fmt": "3d 13h",
       "finished": "2026-04-11 17:12",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 190986,
@@ -3518,7 +3736,8 @@
       "hrs_advance": 101.0,
       "advance_fmt": "4d 5h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 191805,
@@ -3534,7 +3753,8 @@
       "hrs_advance": 67.0,
       "advance_fmt": "2d 19h",
       "finished": "2026-03-10 14:10",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 191854,
@@ -3550,7 +3770,8 @@
       "hrs_advance": 70.4,
       "advance_fmt": "2d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 192094,
@@ -3566,7 +3787,8 @@
       "hrs_advance": 114.3,
       "advance_fmt": "4d 18h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 192286,
@@ -3582,7 +3804,8 @@
       "hrs_advance": 74.0,
       "advance_fmt": "3d 2h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 192330,
@@ -3598,7 +3821,8 @@
       "hrs_advance": 46.8,
       "advance_fmt": "1d 22h",
       "finished": "2026-03-20 09:51",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 192514,
@@ -3614,7 +3838,8 @@
       "hrs_advance": 49.1,
       "advance_fmt": "2d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 192562,
@@ -3630,7 +3855,8 @@
       "hrs_advance": 66.3,
       "advance_fmt": "2d 18h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 193337,
@@ -3646,7 +3872,8 @@
       "hrs_advance": 71.3,
       "advance_fmt": "2d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 193622,
@@ -3662,7 +3889,8 @@
       "hrs_advance": 51.3,
       "advance_fmt": "2d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 194047,
@@ -3678,7 +3906,8 @@
       "hrs_advance": 89.6,
       "advance_fmt": "3d 17h",
       "finished": "2026-03-28 19:57",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 194294,
@@ -3694,7 +3923,8 @@
       "hrs_advance": 46.1,
       "advance_fmt": "1d 22h",
       "finished": "2026-03-19 12:32",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 194309,
@@ -3710,7 +3940,8 @@
       "hrs_advance": 75.0,
       "advance_fmt": "3d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 194974,
@@ -3726,7 +3957,8 @@
       "hrs_advance": 47.6,
       "advance_fmt": "1d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 194975,
@@ -3742,7 +3974,8 @@
       "hrs_advance": 50.9,
       "advance_fmt": "2d 2h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 195102,
@@ -3758,7 +3991,8 @@
       "hrs_advance": 48.8,
       "advance_fmt": "2d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 195118,
@@ -3774,7 +4008,8 @@
       "hrs_advance": 47.2,
       "advance_fmt": "1d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 195187,
@@ -3790,7 +4025,8 @@
       "hrs_advance": 47.5,
       "advance_fmt": "1d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 195218,
@@ -3806,7 +4042,8 @@
       "hrs_advance": 46.2,
       "advance_fmt": "1d 22h",
       "finished": "2026-04-02 20:14",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 195274,
@@ -3822,7 +4059,8 @@
       "hrs_advance": 43.5,
       "advance_fmt": "1d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 160908,
@@ -3838,7 +4076,8 @@
       "hrs_advance": 1774.3,
       "advance_fmt": "73d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 178464,
@@ -3854,7 +4093,8 @@
       "hrs_advance": 796.7,
       "advance_fmt": "33d 4h",
       "finished": "2026-04-10 13:38",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 179012,
@@ -3870,7 +4110,8 @@
       "hrs_advance": 813.5,
       "advance_fmt": "33d 21h",
       "finished": "2026-04-10 13:39",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 188472,
@@ -3886,7 +4127,8 @@
       "hrs_advance": 415.3,
       "advance_fmt": "17d 7h",
       "finished": "2026-04-13 21:31",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 190819,
@@ -3902,7 +4144,8 @@
       "hrs_advance": 325.2,
       "advance_fmt": "13d 13h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 190952,
@@ -3918,7 +4161,8 @@
       "hrs_advance": 364.1,
       "advance_fmt": "15d 4h",
       "finished": "2026-04-10 15:05",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 191428,
@@ -3934,7 +4178,8 @@
       "hrs_advance": 359.6,
       "advance_fmt": "14d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 192629,
@@ -3950,7 +4195,8 @@
       "hrs_advance": 162.0,
       "advance_fmt": "6d 18h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 193371,
@@ -3966,7 +4212,8 @@
       "hrs_advance": 134.9,
       "advance_fmt": "5d 14h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 193807,
@@ -3982,7 +4229,8 @@
       "hrs_advance": 237.0,
       "advance_fmt": "9d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 193986,
@@ -3998,7 +4246,8 @@
       "hrs_advance": 228.4,
       "advance_fmt": "9d 12h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 194088,
@@ -4014,7 +4263,8 @@
       "hrs_advance": 172.1,
       "advance_fmt": "7d 4h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 194485,
@@ -4030,7 +4280,8 @@
       "hrs_advance": 112.3,
       "advance_fmt": "4d 16h",
       "finished": "2026-03-17 10:26",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 194571,
@@ -4046,7 +4297,8 @@
       "hrs_advance": 187.1,
       "advance_fmt": "7d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 194634,
@@ -4062,7 +4314,8 @@
       "hrs_advance": 207.1,
       "advance_fmt": "8d 15h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 195180,
@@ -4078,7 +4331,8 @@
       "hrs_advance": 219.5,
       "advance_fmt": "9d 3h",
       "finished": "2026-03-30 18:28",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 195585,
@@ -4094,7 +4348,8 @@
       "hrs_advance": 37.0,
       "advance_fmt": "1d 13h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 195821,
@@ -4110,7 +4365,8 @@
       "hrs_advance": 27.6,
       "advance_fmt": "1d 3h",
       "finished": "2026-03-19 09:14",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 195975,
@@ -4126,7 +4382,8 @@
       "hrs_advance": 66.1,
       "advance_fmt": "2d 18h",
       "finished": "2026-03-31 11:12",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 196097,
@@ -4142,7 +4399,8 @@
       "hrs_advance": 51.2,
       "advance_fmt": "2d 3h",
       "finished": "2026-03-18 16:39",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 196453,
@@ -4158,7 +4416,8 @@
       "hrs_advance": 96.0,
       "advance_fmt": "3d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 196775,
@@ -4174,7 +4433,8 @@
       "hrs_advance": 27.9,
       "advance_fmt": "1d 3h",
       "finished": "2026-04-03 11:29",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 196787,
@@ -4190,7 +4450,8 @@
       "hrs_advance": 34.4,
       "advance_fmt": "1d 10h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 197289,
@@ -4206,7 +4467,8 @@
       "hrs_advance": 30.2,
       "advance_fmt": "1d 6h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 197305,
@@ -4222,7 +4484,8 @@
       "hrs_advance": 46.5,
       "advance_fmt": "1d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 197600,
@@ -4238,7 +4501,8 @@
       "hrs_advance": 95.6,
       "advance_fmt": "3d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 197662,
@@ -4254,7 +4518,8 @@
       "hrs_advance": 95.1,
       "advance_fmt": "3d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 197734,
@@ -4270,7 +4535,8 @@
       "hrs_advance": 44.6,
       "advance_fmt": "1d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 160244,
@@ -4286,7 +4552,8 @@
       "hrs_advance": 1922.6,
       "advance_fmt": "80d 2h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 179562,
@@ -4302,7 +4569,8 @@
       "hrs_advance": 911.6,
       "advance_fmt": "37d 23h",
       "finished": "2026-03-24 11:31",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 184886,
@@ -4318,7 +4586,8 @@
       "hrs_advance": 762.9,
       "advance_fmt": "31d 18h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 186089,
@@ -4334,7 +4603,8 @@
       "hrs_advance": 641.0,
       "advance_fmt": "26d 17h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 186672,
@@ -4350,7 +4620,8 @@
       "hrs_advance": 597.4,
       "advance_fmt": "24d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 188372,
@@ -4366,7 +4637,8 @@
       "hrs_advance": 554.0,
       "advance_fmt": "23d 1h",
       "finished": "2026-04-10 14:32",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 188460,
@@ -4382,7 +4654,8 @@
       "hrs_advance": 555.6,
       "advance_fmt": "23d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 189016,
@@ -4398,7 +4671,8 @@
       "hrs_advance": 482.4,
       "advance_fmt": "20d 2h",
       "finished": "2026-04-01 17:50",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 190253,
@@ -4414,7 +4688,8 @@
       "hrs_advance": 485.1,
       "advance_fmt": "20d 5h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 191366,
@@ -4430,7 +4705,8 @@
       "hrs_advance": 498.2,
       "advance_fmt": "20d 18h",
       "finished": "2026-04-08 10:51",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 191389,
@@ -4446,7 +4722,8 @@
       "hrs_advance": 477.4,
       "advance_fmt": "19d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 191597,
@@ -4462,7 +4739,8 @@
       "hrs_advance": 482.5,
       "advance_fmt": "20d 2h",
       "finished": "2026-03-27 15:41",
-      "completed_before": false
+      "completed_before": false,
+      "segment": null
     },
     {
       "id": 191906,
@@ -4478,7 +4756,8 @@
       "hrs_advance": 456.6,
       "advance_fmt": "19d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 191913,
@@ -4494,7 +4773,8 @@
       "hrs_advance": 433.1,
       "advance_fmt": "18d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 192299,
@@ -4510,7 +4790,8 @@
       "hrs_advance": 335.9,
       "advance_fmt": "13d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 194381,
@@ -4526,7 +4807,8 @@
       "hrs_advance": 264.3,
       "advance_fmt": "11d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 194581,
@@ -4542,7 +4824,8 @@
       "hrs_advance": 356.6,
       "advance_fmt": "14d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 195169,
@@ -4558,7 +4841,8 @@
       "hrs_advance": 335.1,
       "advance_fmt": "13d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 195213,
@@ -4574,7 +4858,8 @@
       "hrs_advance": 350.4,
       "advance_fmt": "14d 14h",
       "finished": "2026-04-10 10:12",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 195429,
@@ -4590,7 +4875,8 @@
       "hrs_advance": 293.4,
       "advance_fmt": "12d 5h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 195945,
@@ -4606,7 +4892,8 @@
       "hrs_advance": 181.8,
       "advance_fmt": "7d 13h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 196027,
@@ -4622,7 +4909,8 @@
       "hrs_advance": 169.8,
       "advance_fmt": "7d 1h",
       "finished": "2026-04-11 17:17",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 196095,
@@ -4638,7 +4926,8 @@
       "hrs_advance": 168.7,
       "advance_fmt": "7d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 197149,
@@ -4654,7 +4943,8 @@
       "hrs_advance": 257.5,
       "advance_fmt": "10d 17h",
       "finished": "2026-03-28 16:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 197156,
@@ -4670,7 +4960,8 @@
       "hrs_advance": 136.5,
       "advance_fmt": "5d 16h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 197186,
@@ -4686,7 +4977,8 @@
       "hrs_advance": 251.7,
       "advance_fmt": "10d 11h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 197314,
@@ -4702,7 +4994,8 @@
       "hrs_advance": 192.9,
       "advance_fmt": "8d",
       "finished": "2026-04-04 10:32",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 197325,
@@ -4718,7 +5011,8 @@
       "hrs_advance": 166.7,
       "advance_fmt": "6d 22h",
       "finished": "2026-03-25 11:32",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 198375,
@@ -4734,7 +5028,8 @@
       "hrs_advance": 117.5,
       "advance_fmt": "4d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 198389,
@@ -4750,7 +5045,8 @@
       "hrs_advance": 138.0,
       "advance_fmt": "5d 17h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 198458,
@@ -4766,7 +5062,8 @@
       "hrs_advance": 115.9,
       "advance_fmt": "4d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 198520,
@@ -4782,7 +5079,8 @@
       "hrs_advance": 76.7,
       "advance_fmt": "3d 4h",
       "finished": "2026-03-25 12:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 198617,
@@ -4798,7 +5096,8 @@
       "hrs_advance": 129.1,
       "advance_fmt": "5d 9h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 198785,
@@ -4814,7 +5113,8 @@
       "hrs_advance": 74.0,
       "advance_fmt": "3d 2h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 198950,
@@ -4830,7 +5130,8 @@
       "hrs_advance": 97.5,
       "advance_fmt": "4d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 199008,
@@ -4846,7 +5147,8 @@
       "hrs_advance": 185.1,
       "advance_fmt": "7d 17h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 199153,
@@ -4862,7 +5164,8 @@
       "hrs_advance": 51.8,
       "advance_fmt": "2d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 199240,
@@ -4878,7 +5181,8 @@
       "hrs_advance": 128.9,
       "advance_fmt": "5d 8h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 199452,
@@ -4894,7 +5198,8 @@
       "hrs_advance": 77.4,
       "advance_fmt": "3d 5h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 199458,
@@ -4910,7 +5215,8 @@
       "hrs_advance": 123.6,
       "advance_fmt": "5d 3h",
       "finished": "2026-04-02 12:29",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 199532,
@@ -4926,7 +5232,8 @@
       "hrs_advance": 121.5,
       "advance_fmt": "5d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 199577,
@@ -4942,7 +5249,8 @@
       "hrs_advance": 119.1,
       "advance_fmt": "4d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 199620,
@@ -4958,7 +5266,8 @@
       "hrs_advance": 70.4,
       "advance_fmt": "2d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 199687,
@@ -4974,7 +5283,8 @@
       "hrs_advance": 45.5,
       "advance_fmt": "1d 21h",
       "finished": "2026-04-02 20:33",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 199801,
@@ -4990,7 +5300,8 @@
       "hrs_advance": 100.9,
       "advance_fmt": "4d 4h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 199882,
@@ -5006,7 +5317,8 @@
       "hrs_advance": 45.4,
       "advance_fmt": "1d 21h",
       "finished": "2026-03-25 10:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 200045,
@@ -5022,7 +5334,8 @@
       "hrs_advance": 42.7,
       "advance_fmt": "1d 18h",
       "finished": "2026-04-20 16:14",
-      "completed_before": false
+      "completed_before": false,
+      "segment": null
     },
     {
       "id": 200078,
@@ -5038,7 +5351,8 @@
       "hrs_advance": 29.2,
       "advance_fmt": "1d 5h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 200121,
@@ -5054,7 +5368,8 @@
       "hrs_advance": 93.8,
       "advance_fmt": "3d 21h",
       "finished": "2026-03-27 15:00",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 200151,
@@ -5070,7 +5385,8 @@
       "hrs_advance": 93.3,
       "advance_fmt": "3d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": null
     },
     {
       "id": 200167,
@@ -5086,7 +5402,8 @@
       "hrs_advance": 46.0,
       "advance_fmt": "1d 22h",
       "finished": "2026-03-27 00:24",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 200304,
@@ -5102,7 +5419,8 @@
       "hrs_advance": 63.1,
       "advance_fmt": "2d 15h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 200327,
@@ -5118,7 +5436,8 @@
       "hrs_advance": 90.0,
       "advance_fmt": "3d 17h",
       "finished": "2026-03-27 17:10",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 200332,
@@ -5134,7 +5453,8 @@
       "hrs_advance": 37.7,
       "advance_fmt": "1d 13h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 200337,
@@ -5150,7 +5470,8 @@
       "hrs_advance": 89.2,
       "advance_fmt": "3d 17h",
       "finished": "2026-04-18 16:38",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 200338,
@@ -5166,7 +5487,8 @@
       "hrs_advance": 89.2,
       "advance_fmt": "3d 17h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 200352,
@@ -5182,7 +5504,8 @@
       "hrs_advance": 35.1,
       "advance_fmt": "1d 11h",
       "finished": "2026-04-01 16:50",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 200418,
@@ -5198,7 +5521,8 @@
       "hrs_advance": 100.2,
       "advance_fmt": "4d 4h",
       "finished": "2026-03-28 16:04",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 200446,
@@ -5214,7 +5538,8 @@
       "hrs_advance": 51.5,
       "advance_fmt": "2d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 200570,
@@ -5230,7 +5555,8 @@
       "hrs_advance": 73.3,
       "advance_fmt": "3d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 200654,
@@ -5246,7 +5572,8 @@
       "hrs_advance": 47.6,
       "advance_fmt": "1d 23h",
       "finished": "2026-04-08 10:50",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 200705,
@@ -5262,7 +5589,8 @@
       "hrs_advance": 42.2,
       "advance_fmt": "1d 18h",
       "finished": "2026-03-30 16:25",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 200728,
@@ -5278,7 +5606,8 @@
       "hrs_advance": 67.9,
       "advance_fmt": "2d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 200852,
@@ -5294,7 +5623,8 @@
       "hrs_advance": 91.5,
       "advance_fmt": "3d 19h",
       "finished": "2026-04-10 16:19",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 201308,
@@ -5310,7 +5640,8 @@
       "hrs_advance": 50.6,
       "advance_fmt": "2d 2h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 201394,
@@ -5326,7 +5657,8 @@
       "hrs_advance": 46.9,
       "advance_fmt": "1d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 201429,
@@ -5342,7 +5674,8 @@
       "hrs_advance": 68.5,
       "advance_fmt": "2d 20h",
       "finished": "2026-04-17 17:46",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 201454,
@@ -5358,7 +5691,8 @@
       "hrs_advance": 47.1,
       "advance_fmt": "1d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 201486,
@@ -5374,7 +5708,8 @@
       "hrs_advance": 44.9,
       "advance_fmt": "1d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 201521,
@@ -5390,7 +5725,8 @@
       "hrs_advance": 44.7,
       "advance_fmt": "1d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 201530,
@@ -5406,7 +5742,8 @@
       "hrs_advance": 43.8,
       "advance_fmt": "1d 19h",
       "finished": "2026-04-17 10:07",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 201555,
@@ -5422,7 +5759,8 @@
       "hrs_advance": 43.2,
       "advance_fmt": "1d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 201575,
@@ -5438,7 +5776,8 @@
       "hrs_advance": 69.0,
       "advance_fmt": "2d 21h",
       "finished": "2026-03-28 20:33",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 201621,
@@ -5454,7 +5793,8 @@
       "hrs_advance": 40.4,
       "advance_fmt": "1d 16h",
       "finished": "2026-03-27 16:11",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 201638,
@@ -5470,7 +5810,8 @@
       "hrs_advance": 61.4,
       "advance_fmt": "2d 13h",
       "finished": "2026-03-30 13:47",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 201639,
@@ -5486,7 +5827,8 @@
       "hrs_advance": 85.6,
       "advance_fmt": "3d 13h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 201652,
@@ -5502,7 +5844,8 @@
       "hrs_advance": 36.7,
       "advance_fmt": "1d 12h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 201819,
@@ -5518,7 +5861,8 @@
       "hrs_advance": 27.2,
       "advance_fmt": "1d 3h",
       "finished": "2026-04-22 10:09",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 201949,
@@ -5534,7 +5878,8 @@
       "hrs_advance": 25.8,
       "advance_fmt": "1d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 202052,
@@ -5550,7 +5895,8 @@
       "hrs_advance": 25.6,
       "advance_fmt": "1d 1h",
       "finished": "2026-04-10 09:51",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 202291,
@@ -5566,7 +5912,8 @@
       "hrs_advance": 37.4,
       "advance_fmt": "1d 13h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 202610,
@@ -5582,7 +5929,8 @@
       "hrs_advance": 54.9,
       "advance_fmt": "2d 6h",
       "finished": "2026-03-29 21:25",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 202665,
@@ -5598,7 +5946,8 @@
       "hrs_advance": 24.2,
       "advance_fmt": "1d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 202707,
@@ -5614,7 +5963,8 @@
       "hrs_advance": 25.6,
       "advance_fmt": "1d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 167402,
@@ -5630,7 +5980,8 @@
       "hrs_advance": 1767.4,
       "advance_fmt": "73d 15h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 177608,
@@ -5646,7 +5997,8 @@
       "hrs_advance": 1272.2,
       "advance_fmt": "53d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 188962,
@@ -5662,7 +6014,8 @@
       "hrs_advance": 726.4,
       "advance_fmt": "30d 6h",
       "finished": "2026-04-10 14:32",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 190032,
@@ -5678,7 +6031,8 @@
       "hrs_advance": 667.1,
       "advance_fmt": "27d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 192481,
@@ -5694,7 +6048,8 @@
       "hrs_advance": 531.0,
       "advance_fmt": "22d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 194818,
@@ -5710,7 +6065,8 @@
       "hrs_advance": 509.1,
       "advance_fmt": "21d 5h",
       "finished": "2026-04-03 19:58",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 194965,
@@ -5726,7 +6082,8 @@
       "hrs_advance": 410.0,
       "advance_fmt": "17d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 195673,
@@ -5742,7 +6099,8 @@
       "hrs_advance": 378.6,
       "advance_fmt": "15d 18h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 196446,
@@ -5758,7 +6116,8 @@
       "hrs_advance": 449.8,
       "advance_fmt": "18d 17h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 197846,
@@ -5774,7 +6133,8 @@
       "hrs_advance": 270.6,
       "advance_fmt": "11d 6h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 198464,
@@ -5790,7 +6150,8 @@
       "hrs_advance": 252.3,
       "advance_fmt": "10d 12h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 199459,
@@ -5806,7 +6167,8 @@
       "hrs_advance": 289.6,
       "advance_fmt": "12d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 199477,
@@ -5822,7 +6184,8 @@
       "hrs_advance": 190.9,
       "advance_fmt": "7d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 199512,
@@ -5838,7 +6201,8 @@
       "hrs_advance": 285.7,
       "advance_fmt": "11d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 201277,
@@ -5854,7 +6218,8 @@
       "hrs_advance": 165.8,
       "advance_fmt": "6d 21h",
       "finished": "2026-04-07 11:36",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 201279,
@@ -5870,7 +6235,8 @@
       "hrs_advance": 166.3,
       "advance_fmt": "6d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 201392,
@@ -5886,7 +6252,8 @@
       "hrs_advance": 116.0,
       "advance_fmt": "4d 19h",
       "finished": "2026-03-30 22:28",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 201594,
@@ -5902,7 +6269,8 @@
       "hrs_advance": 234.8,
       "advance_fmt": "9d 18h",
       "finished": "2026-04-18 16:43",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 202038,
@@ -5918,7 +6286,8 @@
       "hrs_advance": 116.9,
       "advance_fmt": "4d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 202586,
@@ -5934,7 +6303,8 @@
       "hrs_advance": 95.0,
       "advance_fmt": "3d 23h",
       "finished": "2026-04-02 12:07",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 204176,
@@ -5950,7 +6320,8 @@
       "hrs_advance": 60.8,
       "advance_fmt": "2d 12h",
       "finished": "2026-04-08 09:37",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 204741,
@@ -5966,7 +6337,8 @@
       "hrs_advance": 111.4,
       "advance_fmt": "4d 15h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 204946,
@@ -5982,7 +6354,8 @@
       "hrs_advance": 46.0,
       "advance_fmt": "1d 22h",
       "finished": "2026-04-23 20:08",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 204994,
@@ -5998,7 +6371,8 @@
       "hrs_advance": 49.9,
       "advance_fmt": "2d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 205755,
@@ -6014,7 +6388,8 @@
       "hrs_advance": 46.8,
       "advance_fmt": "1d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 171412,
@@ -6030,7 +6405,8 @@
       "hrs_advance": 1694.5,
       "advance_fmt": "70d 14h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 179950,
@@ -6046,7 +6422,8 @@
       "hrs_advance": 1329.3,
       "advance_fmt": "55d 9h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 183445,
@@ -6062,7 +6439,8 @@
       "hrs_advance": 1177.2,
       "advance_fmt": "49d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 194174,
@@ -6078,7 +6456,8 @@
       "hrs_advance": 623.6,
       "advance_fmt": "25d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 199634,
@@ -6094,7 +6473,8 @@
       "hrs_advance": 378.4,
       "advance_fmt": "15d 18h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 204512,
@@ -6110,7 +6490,8 @@
       "hrs_advance": 164.1,
       "advance_fmt": "6d 20h",
       "finished": "2026-04-07 12:39",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 205446,
@@ -6126,7 +6507,8 @@
       "hrs_advance": 103.0,
       "advance_fmt": "4d 6h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 205479,
@@ -6142,7 +6524,8 @@
       "hrs_advance": 127.1,
       "advance_fmt": "5d 7h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 205699,
@@ -6158,7 +6541,8 @@
       "hrs_advance": 101.1,
       "advance_fmt": "4d 5h",
       "finished": "2026-04-07 07:36",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 205771,
@@ -6174,7 +6558,8 @@
       "hrs_advance": 114.3,
       "advance_fmt": "4d 18h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 206191,
@@ -6190,7 +6575,8 @@
       "hrs_advance": 187.7,
       "advance_fmt": "7d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 206209,
@@ -6206,7 +6592,8 @@
       "hrs_advance": 172.9,
       "advance_fmt": "7d 4h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 206559,
@@ -6222,7 +6609,8 @@
       "hrs_advance": 52.8,
       "advance_fmt": "2d 4h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 206800,
@@ -6238,7 +6626,8 @@
       "hrs_advance": 111.3,
       "advance_fmt": "4d 15h",
       "finished": "2026-04-22 10:42",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 206991,
@@ -6254,7 +6643,8 @@
       "hrs_advance": 44.6,
       "advance_fmt": "1d 20h",
       "finished": "2026-04-11 17:02",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 191446,
@@ -6270,7 +6660,8 @@
       "hrs_advance": 1000.7,
       "advance_fmt": "41d 16h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 195421,
@@ -6286,7 +6677,8 @@
       "hrs_advance": 793.0,
       "advance_fmt": "33d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 197044,
@@ -6302,7 +6694,8 @@
       "hrs_advance": 740.3,
       "advance_fmt": "30d 20h",
       "finished": "2026-04-18 10:49",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 202899,
@@ -6318,7 +6711,8 @@
       "hrs_advance": 423.3,
       "advance_fmt": "17d 15h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 204234,
@@ -6334,7 +6728,8 @@
       "hrs_advance": 412.8,
       "advance_fmt": "17d 4h",
       "finished": "2026-04-17 15:23",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 204712,
@@ -6350,7 +6745,8 @@
       "hrs_advance": 406.8,
       "advance_fmt": "16d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 204744,
@@ -6366,7 +6762,8 @@
       "hrs_advance": 348.2,
       "advance_fmt": "14d 12h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 205556,
@@ -6382,7 +6779,8 @@
       "hrs_advance": 335.5,
       "advance_fmt": "13d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 206050,
@@ -6398,7 +6796,8 @@
       "hrs_advance": 241.0,
       "advance_fmt": "10d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 206451,
@@ -6414,7 +6813,8 @@
       "hrs_advance": 351.4,
       "advance_fmt": "14d 15h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 207114,
@@ -6430,7 +6830,8 @@
       "hrs_advance": 220.4,
       "advance_fmt": "9d 4h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 207823,
@@ -6446,7 +6847,8 @@
       "hrs_advance": 146.2,
       "advance_fmt": "6d 2h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 208099,
@@ -6462,7 +6864,8 @@
       "hrs_advance": 141.1,
       "advance_fmt": "5d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 208272,
@@ -6478,7 +6881,8 @@
       "hrs_advance": 150.2,
       "advance_fmt": "6d 6h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 208581,
@@ -6494,7 +6898,8 @@
       "hrs_advance": 165.6,
       "advance_fmt": "6d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 209617,
@@ -6510,7 +6915,8 @@
       "hrs_advance": 171.7,
       "advance_fmt": "7d 3h",
       "finished": "2026-04-17 16:30",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 209857,
@@ -6526,7 +6932,8 @@
       "hrs_advance": 69.7,
       "advance_fmt": "2d 21h",
       "finished": "2026-04-18 09:09",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 209906,
@@ -6542,7 +6949,8 @@
       "hrs_advance": 189.0,
       "advance_fmt": "7d 20h",
       "finished": "2026-04-20 07:40",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 210544,
@@ -6558,7 +6966,8 @@
       "hrs_advance": 88.5,
       "advance_fmt": "3d 16h",
       "finished": "2026-04-19 11:23",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 211488,
@@ -6574,7 +6983,8 @@
       "hrs_advance": 92.5,
       "advance_fmt": "3d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 211859,
@@ -6590,7 +7000,8 @@
       "hrs_advance": 48.5,
       "advance_fmt": "2d",
       "finished": "2026-04-22 18:23",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 211917,
@@ -6606,7 +7017,8 @@
       "hrs_advance": 51.6,
       "advance_fmt": "2d 3h",
       "finished": "2026-04-17 11:14",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 212050,
@@ -6622,7 +7034,8 @@
       "hrs_advance": 48.4,
       "advance_fmt": "2d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 212211,
@@ -6638,7 +7051,8 @@
       "hrs_advance": 49.2,
       "advance_fmt": "2d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 212285,
@@ -6654,7 +7068,8 @@
       "hrs_advance": 96.0,
       "advance_fmt": "4d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 212416,
@@ -6670,7 +7085,8 @@
       "hrs_advance": 97.2,
       "advance_fmt": "4d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 171851,
@@ -6686,7 +7102,8 @@
       "hrs_advance": 2014.7,
       "advance_fmt": "83d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 185369,
@@ -6702,7 +7119,8 @@
       "hrs_advance": 1415.9,
       "advance_fmt": "58d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 196388,
@@ -6718,7 +7136,8 @@
       "hrs_advance": 834.8,
       "advance_fmt": "34d 18h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 200246,
@@ -6734,7 +7153,8 @@
       "hrs_advance": 762.5,
       "advance_fmt": "31d 18h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 206370,
@@ -6750,7 +7170,8 @@
       "hrs_advance": 429.7,
       "advance_fmt": "17d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 206560,
@@ -6766,7 +7187,8 @@
       "hrs_advance": 437.9,
       "advance_fmt": "18d 5h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 206829,
@@ -6782,7 +7204,8 @@
       "hrs_advance": 390.7,
       "advance_fmt": "16d 6h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 209497,
@@ -6798,7 +7221,8 @@
       "hrs_advance": 280.7,
       "advance_fmt": "11d 16h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 209769,
@@ -6814,7 +7238,8 @@
       "hrs_advance": 312.9,
       "advance_fmt": "13d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 211168,
@@ -6830,7 +7255,8 @@
       "hrs_advance": 218.2,
       "advance_fmt": "9d 2h",
       "finished": "2026-04-23 21:23",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 211448,
@@ -6846,7 +7272,8 @@
       "hrs_advance": 161.7,
       "advance_fmt": "6d 17h",
       "finished": "2026-04-21 18:32",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 212665,
@@ -6862,7 +7289,8 @@
       "hrs_advance": 139.6,
       "advance_fmt": "5d 19h",
       "finished": "2026-04-24 18:27",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 213764,
@@ -6878,7 +7306,8 @@
       "hrs_advance": 93.8,
       "advance_fmt": "3d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 214425,
@@ -6894,7 +7323,8 @@
       "hrs_advance": 145.6,
       "advance_fmt": "6d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 215932,
@@ -6910,7 +7340,8 @@
       "hrs_advance": 76.4,
       "advance_fmt": "3d 4h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 216034,
@@ -6926,7 +7357,8 @@
       "hrs_advance": 93.9,
       "advance_fmt": "3d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 216262,
@@ -6942,7 +7374,8 @@
       "hrs_advance": 54.0,
       "advance_fmt": "2d 5h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 216840,
@@ -6958,7 +7391,8 @@
       "hrs_advance": 42.9,
       "advance_fmt": "1d 18h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 217053,
@@ -6974,7 +7408,8 @@
       "hrs_advance": 26.8,
       "advance_fmt": "1d 2h",
       "finished": "2026-04-25 09:56",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 207170,
@@ -6990,7 +7425,8 @@
       "hrs_advance": 527.4,
       "advance_fmt": "21d 23h",
       "finished": "2026-04-28 11:05",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 212273,
@@ -7006,7 +7442,8 @@
       "hrs_advance": 311.2,
       "advance_fmt": "12d 23h",
       "finished": "2026-04-28 12:42",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 217452,
@@ -7022,7 +7459,8 @@
       "hrs_advance": 161.5,
       "advance_fmt": "6d 17h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 210952,
@@ -7038,7 +7476,8 @@
       "hrs_advance": 406.9,
       "advance_fmt": "16d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 195138,
@@ -7054,7 +7493,8 @@
       "hrs_advance": 1151.9,
       "advance_fmt": "47d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 214867,
@@ -7070,7 +7510,8 @@
       "hrs_advance": 280.2,
       "advance_fmt": "11d 16h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 202759,
@@ -7086,7 +7527,8 @@
       "hrs_advance": 862.8,
       "advance_fmt": "35d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 219529,
@@ -7102,7 +7544,8 @@
       "hrs_advance": 101.3,
       "advance_fmt": "4d 5h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 215412,
@@ -7118,7 +7561,8 @@
       "hrs_advance": 357.8,
       "advance_fmt": "14d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 221320,
@@ -7134,7 +7578,8 @@
       "hrs_advance": 104.2,
       "advance_fmt": "4d 8h",
       "finished": "2026-05-06 13:07",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 220707,
@@ -7150,7 +7595,8 @@
       "hrs_advance": 127.6,
       "advance_fmt": "5d 7h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 220545,
@@ -7166,7 +7612,8 @@
       "hrs_advance": 138.0,
       "advance_fmt": "5d 17h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 222700,
@@ -7182,7 +7629,8 @@
       "hrs_advance": 50.9,
       "advance_fmt": "2d 2h",
       "finished": "2026-05-09 12:56",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 222184,
@@ -7198,7 +7646,8 @@
       "hrs_advance": 92.5,
       "advance_fmt": "3d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 176760,
@@ -7214,7 +7663,8 @@
       "hrs_advance": 2083.7,
       "advance_fmt": "86d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 216486,
@@ -7230,7 +7680,8 @@
       "hrs_advance": 334.8,
       "advance_fmt": "13d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 209761,
@@ -7246,7 +7697,8 @@
       "hrs_advance": 620.5,
       "advance_fmt": "25d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 218744,
@@ -7262,7 +7714,8 @@
       "hrs_advance": 243.4,
       "advance_fmt": "10d 3h",
       "finished": "2026-05-07 12:52",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 222036,
@@ -7278,7 +7731,8 @@
       "hrs_advance": 125.2,
       "advance_fmt": "5d 5h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 219791,
@@ -7294,7 +7748,8 @@
       "hrs_advance": 211.2,
       "advance_fmt": "8d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 219493,
@@ -7310,7 +7765,8 @@
       "hrs_advance": 214.5,
       "advance_fmt": "8d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 219422,
@@ -7326,7 +7782,8 @@
       "hrs_advance": 221.7,
       "advance_fmt": "9d 5h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 214124,
@@ -7342,7 +7799,8 @@
       "hrs_advance": 480.0,
       "advance_fmt": "20d",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 216154,
@@ -7358,7 +7816,8 @@
       "hrs_advance": 400.2,
       "advance_fmt": "16d 16h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 224670,
@@ -7374,7 +7833,8 @@
       "hrs_advance": 28.5,
       "advance_fmt": "1d 4h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 219266,
@@ -7390,7 +7850,8 @@
       "hrs_advance": 259.1,
       "advance_fmt": "10d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 217385,
@@ -7406,7 +7867,8 @@
       "hrs_advance": 351.4,
       "advance_fmt": "14d 15h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 224458,
@@ -7422,7 +7884,8 @@
       "hrs_advance": 37.1,
       "advance_fmt": "1d 13h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 217946,
@@ -7438,7 +7901,8 @@
       "hrs_advance": 362.9,
       "advance_fmt": "15d 2h",
       "finished": "2026-05-09 22:41",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 220775,
@@ -7454,7 +7918,8 @@
       "hrs_advance": 219.0,
       "advance_fmt": "9d 2h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 219826,
@@ -7470,7 +7935,8 @@
       "hrs_advance": 257.2,
       "advance_fmt": "10d 17h",
       "finished": "2026-05-09 12:04",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 221368,
@@ -7486,7 +7952,8 @@
       "hrs_advance": 222.5,
       "advance_fmt": "9d 6h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 240241,
@@ -7502,7 +7969,8 @@
       "hrs_advance": 62.4,
       "advance_fmt": "2d 14h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 239024,
@@ -7518,7 +7986,8 @@
       "hrs_advance": 125.4,
       "advance_fmt": "5d 5h",
       "finished": "2026-06-10 17:53",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 240517,
@@ -7534,7 +8003,8 @@
       "hrs_advance": 71.1,
       "advance_fmt": "2d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 231719,
@@ -7550,7 +8020,8 @@
       "hrs_advance": 567.5,
       "advance_fmt": "23d 15h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 216507,
@@ -7566,7 +8037,8 @@
       "hrs_advance": 1245.7,
       "advance_fmt": "51d 21h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 244238,
@@ -7582,7 +8054,8 @@
       "hrs_advance": 34.4,
       "advance_fmt": "1d 10h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 235609,
@@ -7598,7 +8071,8 @@
       "hrs_advance": 443.0,
       "advance_fmt": "18d 11h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 228594,
@@ -7614,7 +8088,8 @@
       "hrs_advance": 788.0,
       "advance_fmt": "32d 19h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 237281,
@@ -7630,7 +8105,8 @@
       "hrs_advance": 375.6,
       "advance_fmt": "15d 15h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 239498,
@@ -7646,7 +8122,8 @@
       "hrs_advance": 287.4,
       "advance_fmt": "11d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 241732,
@@ -7662,7 +8139,8 @@
       "hrs_advance": 171.3,
       "advance_fmt": "7d 3h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 242214,
@@ -7678,7 +8156,8 @@
       "hrs_advance": 175.6,
       "advance_fmt": "7d 7h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 244785,
@@ -7694,7 +8173,8 @@
       "hrs_advance": 72.2,
       "advance_fmt": "3d 0h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 246175,
@@ -7710,7 +8190,8 @@
       "hrs_advance": 23.8,
       "advance_fmt": "0d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 246179,
@@ -7726,7 +8207,8 @@
       "hrs_advance": 41.2,
       "advance_fmt": "1d 17h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 246564,
@@ -7742,7 +8224,8 @@
       "hrs_advance": 25.4,
       "advance_fmt": "1d 1h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 246512,
@@ -7758,7 +8241,8 @@
       "hrs_advance": 29.2,
       "advance_fmt": "1d 5h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 246590,
@@ -7774,7 +8258,8 @@
       "hrs_advance": 30.9,
       "advance_fmt": "1d 6h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 245957,
@@ -7790,7 +8275,8 @@
       "hrs_advance": 121.0,
       "advance_fmt": "5d 1h",
       "finished": "2026-06-23 09:39",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 236892,
@@ -7806,7 +8292,8 @@
       "hrs_advance": 628.8,
       "advance_fmt": "26d 4h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 246699,
@@ -7822,7 +8309,8 @@
       "hrs_advance": 167.6,
       "advance_fmt": "6d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 248956,
@@ -7838,7 +8326,8 @@
       "hrs_advance": 42.2,
       "advance_fmt": "1d 18h",
       "finished": "2026-06-29 07:20",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 220319,
@@ -7854,7 +8343,8 @@
       "hrs_advance": 1366.4,
       "advance_fmt": "56d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 197050,
@@ -7870,7 +8360,8 @@
       "hrs_advance": 2342.9,
       "advance_fmt": "97d 22h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 248460,
@@ -7886,7 +8377,8 @@
       "hrs_advance": 41.8,
       "advance_fmt": "1d 17h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 249499,
@@ -7902,7 +8394,8 @@
       "hrs_advance": 44.0,
       "advance_fmt": "1d 20h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 249866,
@@ -7918,7 +8411,8 @@
       "hrs_advance": 24.4,
       "advance_fmt": "1d 0h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 248259,
@@ -7934,7 +8428,8 @@
       "hrs_advance": 71.1,
       "advance_fmt": "2d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 226677,
@@ -7950,7 +8445,8 @@
       "hrs_advance": 1031.3,
       "advance_fmt": "42d 23h",
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": null,
@@ -7966,7 +8462,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": ""
     },
     {
       "id": null,
@@ -7982,7 +8479,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": null,
@@ -7998,7 +8496,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": null,
@@ -8014,7 +8513,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": ""
     },
     {
       "id": null,
@@ -8030,7 +8530,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": ""
     },
     {
       "id": null,
@@ -8046,7 +8547,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": null,
@@ -8062,7 +8564,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": null,
@@ -8078,7 +8581,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": ""
     },
     {
       "id": null,
@@ -8094,7 +8598,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": null,
@@ -8110,7 +8615,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": null,
@@ -8126,7 +8632,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 251608,
@@ -8142,7 +8649,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 251107,
@@ -8158,7 +8666,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 250736,
@@ -8174,7 +8683,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 250488,
@@ -8190,7 +8700,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 251382,
@@ -8206,7 +8717,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 249936,
@@ -8222,7 +8734,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 249888,
@@ -8238,7 +8751,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 251396,
@@ -8254,7 +8768,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 252228,
@@ -8270,7 +8785,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 249888,
@@ -8286,7 +8802,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 252170,
@@ -8302,7 +8819,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 251138,
@@ -8318,7 +8836,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Momentum"
     },
     {
       "id": 250557,
@@ -8334,7 +8853,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 251450,
@@ -8350,7 +8870,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 250498,
@@ -8366,7 +8887,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 249862,
@@ -8382,7 +8904,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Enterprise"
     },
     {
       "id": 249896,
@@ -8398,7 +8921,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Gold"
     },
     {
       "id": 251088,
@@ -8414,7 +8938,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 251647,
@@ -8430,7 +8955,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 251372,
@@ -8446,7 +8972,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 251703,
@@ -8462,7 +8989,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 250700,
@@ -8478,7 +9006,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Growth"
     },
     {
       "id": 250088,
@@ -8494,7 +9023,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 251122,
@@ -8510,7 +9040,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": null,
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     },
     {
       "id": 251819,
@@ -8526,7 +9057,8 @@
       "hrs_advance": null,
       "advance_fmt": null,
       "finished": "2026-07-12 16:05",
-      "completed_before": false
+      "completed_before": false,
+      "segment": "Silver"
     }
   ],
   "_monthly": {
@@ -11447,5 +11979,147 @@
     "qualiphy_count": 0,
     "qualiphy_before": 0,
     "kpi_qualiphy_save": 0
+  },
+  "_segments": {
+    "3Eleven Aesthetics": "Growth",
+    "A Touch Above Med Spa": "Silver",
+    "Aesthetic Avenue Medspa": "Silver",
+    "Aesthetics Lab": "Silver",
+    "Aesthetics by Nurse Amy": "Silver",
+    "Aesthetics with Whit": "Momentum",
+    "Aida Aesthetics": "Gold",
+    "Aizza Aesthetics": "Growth",
+    "Alaina Gray Aesthetics": "Momentum",
+    "Aluna Esthetics": "Momentum",
+    "Angel Face Aesthetics": "Silver",
+    "Arlo Aesthetics": "Momentum",
+    "Aura Med Spa and Aesthetics": "Momentum",
+    "Beauty Revival Barn": "Silver",
+    "Beauty Rx Aesthetics": "Growth",
+    "Bliss Aesthetics": "Gold",
+    "Bloom Wellness Lounge": "Momentum",
+    "Boon Therapeutics": "Growth",
+    "Boost Med Spa & Wellness": "Silver",
+    "Botux Lounge Aesthetic Spa": "Momentum",
+    "CALI MEDICAL AESTHETIC LOUNGE": "Silver",
+    "Careen Aesthetics": "Silver",
+    "Coastal Glo": "Gold",
+    "Coastline Aesthetics & Wellness": "Silver",
+    "Concierge Care IV Pros Aesthetics and Wellness": "Growth",
+    "Confidently Beautiful Aesthetics": "Momentum",
+    "Couture Aesthetics": "Momentum",
+    "DFWSKINRN": "Momentum",
+    "Define Aesthetics": "Gold",
+    "Demure Aesthetics": "Silver",
+    "Drip & Glow Aesthetics": "Silver",
+    "ETHEREAL x MASHA": "",
+    "Elevate Aesthetics & Wellness": "Momentum",
+    "Eleve Esthetics": "Momentum",
+    "Elisa Grace Medspa & Boutique": "Silver",
+    "Elite Integrated Performance": "Momentum",
+    "Elixir Beauty and Wellness": "Momentum",
+    "Elora Aesthetics": "Momentum",
+    "Embrace Beauty Med Spa": "Silver",
+    "Envy Aesthetics": "Momentum",
+    "Estetica Med Spa": "Momentum",
+    "Evergrace Med Spa": "Silver",
+    "FAB Medical Aesthetics": "Silver",
+    "Forever Young Aesthetics by Robin": "Momentum",
+    "Fresh Face Aesthetics": "Enterprise",
+    "Gigi's GlowLab": "Silver",
+    "Glow & Vibe": "Momentum",
+    "Glow Room": "Momentum",
+    "Grace Skin": "Silver",
+    "Graceful Glam": "Silver",
+    "Graise Aesthetics": "Silver",
+    "Hiraya Aesthetics and Wellness": "Momentum",
+    "Honey Hive Aesthetics & Wellness": "Silver",
+    "IKontura Aesthetics & Wellness": "Silver",
+    "Ivy Hydration, Wellness & Aesthetics": "Silver",
+    "Jules Fibroblast & Body Contour": "Growth",
+    "KaiZen Wellness & Aesthetics": "Silver",
+    "Kajal Luxe Med Spa": "Momentum",
+    "KatherineO-RN": "Silver",
+    "Kopper Aesthetics": "Momentum",
+    "LA Aesthetics Mobile Injections": "Growth",
+    "LOLA's Med Spa": "Silver",
+    "Lappost Aesthetique": "Momentum",
+    "Lemon Drop Med Spa": "Momentum",
+    "Level Up Wellness + IV Therapy": "Enterprise",
+    "Lifted Aesthetics": "Silver",
+    "Lotus Longevity": "Growth",
+    "Lueur Eclat Medical Spa": "Momentum",
+    "Mandisa Wellness and Aesthetics": "Growth",
+    "Marcel Aesthetics": "Silver",
+    "Mavens Glow": "Silver",
+    "Milay Aesthetics": "Silver",
+    "Modern Beauty Aesthetics & Wellness": "Silver",
+    "Modyn Studio": "Momentum",
+    "NTRL Aesthetics": "Silver",
+    "NV Regenerative Aesthetics": "Silver",
+    "Natural Aesthetics": "Growth",
+    "Nature Health Medical": "Gold",
+    "Nour Beauty Aesthetics": "Momentum",
+    "NuVie MD": "Silver",
+    "Nude Medspa": "Momentum",
+    "Nurse Injector Brooke": "Momentum",
+    "OC Beauty Box RN": "Growth",
+    "Old Town MedSpa": "Gold",
+    "Omorfo Derma Aesthetics": "Silver",
+    "Omriss Clinic": "Momentum",
+    "Optimal Health Energy": "Growth",
+    "Pack Medspa": "Growth",
+    "Palace Med Spa": "Silver",
+    "Paradise Medspa & Wellness": "Enterprise",
+    "Perfection Spa": "Momentum",
+    "Pure Bliss Aesthetics": "Silver",
+    "Pure Intentions Med Spa": "Silver",
+    "Pure Seoul Aesthetics": "Silver",
+    "Rajeunir Wellness": "Silver",
+    "Raw Aesthetic": "Silver",
+    "Re-Glo Aesthetics": "Enterprise",
+    "ReNu Infusions": "Silver",
+    "Refind Aesthetics": "Momentum",
+    "Reform Aesthetics and Wellness": "Growth",
+    "Regenerate IV Bar & Aesthetics": "Silver",
+    "Rejuvenate Austin": "Enterprise",
+    "Renew Room": "Gold",
+    "Renova Med Spa": "Momentum",
+    "Restore & Balance Medical Services": "Silver",
+    "Revive Aesthetics and Wellness": "Silver",
+    "Rich and Rooted Medspa": "Growth",
+    "Ruhe Aesthetics": "Gold",
+    "Rych Aesthetics": "Growth",
+    "SD Aesthetics & Wellness": "Silver",
+    "SKNVY by Alexia": "Silver",
+    "Salena Dodman Aesthetics": "Gold",
+    "Savvy Aesthetics": "Silver",
+    "Self Aesthetics & Wellness": "Silver",
+    "Serene Skin Studio": "Silver",
+    "Skin Fusion Medspa": "Momentum",
+    "Skin Glo Aesthetics": "Momentum",
+    "Skin Haven Aesthetics and Wellness": "Silver",
+    "Skin Society Medical Spa": "Silver",
+    "Skinchic Aesthetics": "Silver",
+    "Skinfluence": "Growth",
+    "Skinworx": "Gold",
+    "Skntique": "Growth",
+    "Sorella Aesthetics": "Momentum",
+    "Spa Numa Aesthetics & Wellness": "Momentum",
+    "Spawise": "Growth",
+    "The Aesthetic Studio": "Growth",
+    "The Empress LA": "Silver",
+    "The Injection Vault": "Silver",
+    "The Skin Edit & Co.": "Momentum",
+    "The Skin Etiquette Med Spa": "Growth",
+    "Thrive Concierge": "Silver",
+    "Tox & Tonic - Queen Creek": "Silver",
+    "Transcend Medical Aesthetics": "Momentum",
+    "True Essence Aesthetics": "Momentum",
+    "WOW Health & Beauty": "Silver",
+    "Wild Moon Collective": "Enterprise",
+    "You Beauty & Aesthetics": "Growth",
+    "Youngblood Aesthetics": "Silver",
+    "Zibella": "Momentum"
   }
 }
