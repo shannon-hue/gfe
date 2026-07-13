@@ -235,7 +235,7 @@ let drillFilters = { search: '', cat: '', wknd: false };
 let currentMiss = [];
 let charts = {};
 
-const INTERNAL_EMAILS = new Set(['courtneydanielle22@yahoo.com','mchenfnp@gmail.com','gennydamato@gmail.com']);
+const INTERNAL_EMAILS = new Set(['courtneydanielle22@yahoo.com','mchenfnp@gmail.com','gennydamato@gmail.com','aaralsip@gmail.com']);
 const BRECK_EMAILS = new Set(['breck+gfesupport@joinmoxie.com','erin.shannon+gfe@joinmoxie.com']);
 const SPAKINECT_EMAILS = new Set(['allison.h@spakinect.com','amber.b@spakinect.com','crystal.a@spakinect.com','erica.n@spakinect.com','helen.b@spakinect.com','ivy.c@spakinect.com','jade.s@spakinect.com','johan.k@spakinect.com','joseph.s@spakinect.com','lindsay.c@spakinect.com','maria.g@spakinect.com','nichole.v@spakinect.com','samantha.r@spakinect.com','stephanie.h@spakinect.com']);
 
@@ -481,7 +481,7 @@ function renderKpiTrend() {
 
 function renderReviewer(data) {
   const rc = data.reviewer_counts, total = data.completed_total;
-  const INTERNAL_R = [{email:'courtneydanielle22@yahoo.com',name:'Courtney'},{email:'mchenfnp@gmail.com',name:'Maylin'},{email:'gennydamato@gmail.com',name:'Genevieve'}];
+  const INTERNAL_R = [{email:'courtneydanielle22@yahoo.com',name:'Courtney'},{email:'mchenfnp@gmail.com',name:'Maylin'},{email:'gennydamato@gmail.com',name:'Genevieve'},{email:'aaralsip@gmail.com',name:'Ashleigh'}];
   const BRECK_R = [{email:'breck+gfesupport@joinmoxie.com',name:'Breck Muller'},{email:'erin.shannon+gfe@joinmoxie.com',name:'Erin Shannon'}];
   const revRow = (name, count, color) => {
     const pct = total ? count/total*100 : 0;
@@ -669,8 +669,8 @@ function renderMissTable(recs) {
       <td>${catPill(r.cat)}</td>
       <td class="mono">${r.appt.split(' ')[0]}</td>
       <td>${dayPill}</td>
-      <td class="mono" style="color:var(--text2)">${r.submitted.split(' ')[0]}</td>
-      <td class="mono" style="color:var(--blue)">${r.advance_fmt}</td>
+      <td class="mono" style="color:var(--text2)">${r.submitted ? r.submitted.split(' ')[0] : '<span style="color:var(--text3)">—</span>'}</td>
+      <td class="mono" style="color:var(--blue)">${r.advance_fmt || '—'}</td>
       <td>${r.finished?`<span style="color:var(--yellow);font-size:10px" class="mono">${r.finished.split(' ')[0]} (late)</span>`:'<span style="color:var(--red);font-size:10px">Never</span>'}</td>
     </tr>`;
   }).join('')}</tbody></table>`;
