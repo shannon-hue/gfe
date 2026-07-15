@@ -390,7 +390,8 @@ function applyQuick(q) {
     if (btn) btn.textContent = activeMonth ? new Date(activeMonth+'-15').toLocaleDateString('en-US',{month:'short',year:'numeric'}) : 'Last Month';
   } else if (q === '3month') {
     activeMonth = null;
-    activeWeeks = ALL_WEEKS.filter(w => w >= TREND_WEEKS[0] && w <= TREND_WEEKS[TREND_WEEKS.length-1]);
+    activeMonths = Object.keys(MONTHLY).sort().slice(-3);
+    activeWeeks = ALL_WEEKS.filter(w => activeMonths.includes(w.slice(0,7)));
   } else if (q === '6month') {
     activeMonth = null;
     activeMonths = Object.keys(MONTHLY).sort().slice(-6);
