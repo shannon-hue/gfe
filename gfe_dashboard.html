@@ -161,6 +161,10 @@ table.dt tbody td { padding: 7px 12px; }
     <div class="card">
       <div class="card-title">SLA Compliance Trend <span class="ct-sub">last 3 months · 95% target</span></div>
       <div class="chart-wrap"><canvas id="kpiTrendChart"></canvas></div>
+      <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border)">
+        <div class="card-title">SLA Compliance Trend <span class="ct-sub">last 6 months · 95% target</span></div>
+        <div class="chart-wrap" style="height:140px"><canvas id="kpiMonthlyTrendChart"></canvas></div>
+      </div>
     </div>
     <div class="card">
       <div class="card-title">Reviewer Breakdown <span class="ct-sub">GFEs completed by our team</span></div>
@@ -409,6 +413,7 @@ function render() {
   }
   renderHero(data, prior);
   renderKpiTrend();
+  renderKpiMonthlyTrend();
   renderReviewer(data);
   renderTiming(data);
   renderCompletedByGroup(data);
@@ -475,6 +480,41 @@ function renderKpiTrend() {
     }
   });
   const chart = charts.kpi;
+  const orig = chart.draw.bind(chart);
+  chart.draw = function() {
+    orig();
+    const ctx2=chart.ctx, y95=chart.scales.y.getPixelForValue(95);
+    ctx2.save(); ctx2.beginPath(); ctx2.strokeStyle='#0d9e7355'; ctx2.lineWidth=1.5; ctx2.setLineDash([6,4]);
+    ctx2.moveTo(chart.chartArea.left,y95); ctx2.lineTo(chart.chartArea.right,y95); ctx2.stroke(); ctx2.restore();
+  };
+  chart.draw();
+}
+
+function renderKpiMonthlyTrend() {
+  const canvas = document.getElementById('kpiMonthlyTrendChart');
+  if (!canvas) return;
+  if (charts.kpiMonthly) charts.kpiMonthly.destroy();
+  const months = Object.keys(MONTHLY).sort().slice(-6);
+  const labels = months.map(m => new Date(m+'-15T12:00:00').toLocaleDateString('en-US',{month:'short',year:'2-digit'}));
+  const vals = months.map(m => MONTHLY[m]?.kpi_pct ?? null);
+  const bgColors = vals.map(v => kpiColor(v) + '55');
+  const bdColors = vals.map(v => kpiColor(v));
+  charts.kpiMonthly = new Chart(canvas.getContext('2d'), {
+    type: 'bar',
+    data: { labels, datasets: [{ label:'SLA %', data:vals, backgroundColor:bgColors, borderColor:bdColors, borderWidth:2, borderRadius:4 }] },
+    options: {
+      responsive:true, maintainAspectRatio:false,
+      plugins: { legend:{display:false}, tooltip:{callbacks:{label:ctx=>{
+        const d = MONTHLY[months[ctx.dataIndex]];
+        return ` ${ctx.raw?.toFixed(1)}% (${fmtN(d?.kpi_met)}/${fmtN(d?.kpi_eligible)})`;
+      }}} },
+      scales: {
+        x:{ticks:{color:'#9099a8',font:{size:10}},grid:{display:false}},
+        y:{min:75,max:101,ticks:{color:'#9099a8',callback:v=>v+'%',font:{size:10}},grid:{color:'#e2e5ea'}}
+      }
+    }
+  });
+  const chart = charts.kpiMonthly;
   const orig = chart.draw.bind(chart);
   chart.draw = function() {
     orig();
