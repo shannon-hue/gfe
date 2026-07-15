@@ -9272,6 +9272,49 @@
         "breck": 1149,
         "all": 5796
       }
+    },
+    "2026-06": {
+      "completed_total": 5130,
+      "completed_advance": 3338,
+      "completed_lm": 1792,
+      "reviewer_counts": {
+        "allison.h@spakinect.com": 559,
+        "breck+gfesupport@joinmoxie.com": 88,
+        "courtneydanielle22@yahoo.com": 1917,
+        "erica.n@spakinect.com": 128,
+        "erin.shannon+gfe@joinmoxie.com": 767,
+        "gennydamato@gmail.com": 145,
+        "helen.b@spakinect.com": 325,
+        "ivy.c@spakinect.com": 103,
+        "joseph.s@spakinect.com": 256,
+        "lindsay.c@spakinect.com": 227,
+        "mchenfnp@gmail.com": 179,
+        "samantha.r@spakinect.com": 103,
+        "stephanie.h@spakinect.com": 126,
+        "crystal.a@spakinect.com": 114,
+        "jade.s@spakinect.com": 93
+      },
+      "completed_by_group": {
+        "all": 5130,
+        "internal": 1756,
+        "spakinect": 1607,
+        "breck": 592,
+        "spk_int": 2606,
+        "spk_brk": 1391
+      },
+      "kpi_eligible": 3302,
+      "kpi_met": 3252,
+      "kpi_missed": 50,
+      "kpi_pct": 98.5,
+      "wknd_excl": 130,
+      "lm_total": 1829,
+      "lm_completed_before": 1485,
+      "lm_pct": 81.2,
+      "avg_ta_hrs": 22.4,
+      "max_ta_hrs": 720.0,
+      "qualiphy_count": 0,
+      "qualiphy_before": 0,
+      "kpi_qualiphy_save": 0
     }
   },
   "_meta": {
