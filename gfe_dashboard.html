@@ -138,12 +138,12 @@ table.dt tbody td { padding: 7px 12px; }
     </div>
     <div>
       <div class="filter-bar">
-        <button class="quick-btn" onclick="applyQuick('thisweek')">This Week</button>
-        <button class="quick-btn" onclick="applyQuick('week')">Last Week</button>
-        <button class="quick-btn" onclick="applyQuick('thismonth')">This Month</button>
-        <button class="quick-btn" onclick="applyQuick('month')">Last Month</button>
-        <button class="quick-btn" onclick="applyQuick('3month')">Last 3 Months</button>
-        <button class="quick-btn active" onclick="applyQuick('all')">All</button>
+        <button class="quick-btn" data-quick="thisweek" onclick="applyQuick('thisweek')">This Week</button>
+        <button class="quick-btn" data-quick="week" onclick="applyQuick('week')">Last Week</button>
+        <button class="quick-btn" data-quick="thismonth" onclick="applyQuick('thismonth')">This Month</button>
+        <button class="quick-btn" data-quick="month" onclick="applyQuick('month')">Last Month</button>
+        <button class="quick-btn" data-quick="3month" onclick="applyQuick('3month')">Last 3 Months</button>
+        <button class="quick-btn" data-quick="6month" onclick="applyQuick('6month')">Last 6 Months</button>
         <div class="date-inputs">
           <input type="date" id="dateFrom">
           <span class="date-sep">→</span>
@@ -161,6 +161,10 @@ table.dt tbody td { padding: 7px 12px; }
     <div class="card">
       <div class="card-title">SLA Compliance Trend <span class="ct-sub">last 3 months · 95% target</span></div>
       <div class="chart-wrap"><canvas id="kpiTrendChart"></canvas></div>
+      <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border)">
+        <div class="card-title">SLA Compliance Trend <span class="ct-sub">last 6 months · 95% target</span></div>
+        <div class="chart-wrap" style="height:140px"><canvas id="kpiMonthlyTrendChart"></canvas></div>
+      </div>
     </div>
     <div class="card">
       <div class="card-title">Reviewer Breakdown <span class="ct-sub">GFEs completed by our team</span></div>
@@ -216,15 +220,12 @@ fetch('gfe_data.json')
     // Last 3M trend: drop partial first week, stop at last full week
     const lastFull = ALL_WEEKS.filter(w => (RAW[w]?.kpi_eligible||0) > 0).slice(-12);
     TREND_WEEKS = lastFull;
-    // Set date inputs
-    document.getElementById('dateFrom').value = ALL_WEEKS[0] || '';
-    document.getElementById('dateTo').value = ALL_WEEKS[ALL_WEEKS.length-1] || '';
     // Refresh label
     if (m.refreshed) document.getElementById('refreshLabel').textContent =
       `Moxie reviewer groups · Submissions mart · Refreshed ${m.refreshed}`;
     document.getElementById('loadingState').style.display = 'none';
     document.getElementById('dashContent').style.display = 'block';
-    render();
+    applyQuick('6month');
   })
   .catch(err => {
     document.getElementById('loadingState').innerHTML =
@@ -234,7 +235,8 @@ fetch('gfe_data.json')
 // ── STATE ──
 let activeWeeks = [];
 let activeMonth = null;
-let activeQuick = 'all';
+let activeMonths = null;
+let activeQuick = '6month';
 let MONTHLY = {};
 let drillOpen = false;
 let drillFilters = { search: '', cat: '', wknd: false };
@@ -317,6 +319,39 @@ function aggFromMonthly(month) {
   return a;
 }
 
+// Sums the precise calendar-month rollups in MONTHLY (not the weekly buckets,
+// which bucket by min(finished, appt) and can drift from true month totals).
+function aggFromMonths(months) {
+  const a = {
+    completed_total:0, completed_advance:0, completed_lm:0,
+    reviewer_counts:{}, completed_by_group:{},
+    kpi_eligible:0, kpi_met:0, kpi_missed:0,
+    wknd_excl:0, lm_total:0, lm_completed_before:0,
+    qualiphy_count:0, qualiphy_before:0, kpi_qualiphy_save:0,
+    _ta:[], max_ta:0
+  };
+  months.forEach(mo => {
+    const d = MONTHLY[mo]; if (!d) return;
+    a.completed_total += d.completed_total||0;
+    a.completed_advance += d.completed_advance||0;
+    a.completed_lm += d.completed_lm||0;
+    a.kpi_eligible += d.kpi_eligible||0; a.kpi_met += d.kpi_met||0; a.kpi_missed += d.kpi_missed||0;
+    a.wknd_excl += d.wknd_excl||0; a.lm_total += d.lm_total||0; a.lm_completed_before += d.lm_completed_before||0;
+    a.qualiphy_count += d.qualiphy_count||0; a.qualiphy_before += d.qualiphy_before||0; a.kpi_qualiphy_save += d.kpi_qualiphy_save||0;
+    Object.entries(d.reviewer_counts||{}).forEach(([e,n])=>{ a.reviewer_counts[e]=(a.reviewer_counts[e]||0)+n; });
+    Object.entries(d.completed_by_group||{}).forEach(([g,n])=>{ a.completed_by_group[g]=(a.completed_by_group[g]||0)+n; });
+    if (d.avg_ta_hrs) a._ta.push({h:d.avg_ta_hrs,n:d.completed_total||1});
+    if ((d.max_ta_hrs||0) > a.max_ta) a.max_ta = d.max_ta_hrs;
+  });
+  const tn = a._ta.reduce((s,x)=>s+x.n,0);
+  a.avg_ta = tn ? a._ta.reduce((s,x)=>s+x.h*x.n,0)/tn : null;
+  a.kpi_pct = a.kpi_eligible ? Math.round(a.kpi_met/a.kpi_eligible*1000)/10 : null;
+  a.lm_pct = a.lm_total ? Math.round(a.lm_completed_before/a.lm_total*1000)/10 : null;
+  a.int_total = [...INTERNAL_EMAILS].reduce((s,e)=>s+(a.reviewer_counts[e]||0),0);
+  a.brk_total = [...BRECK_EMAILS].reduce((s,e)=>s+(a.reviewer_counts[e]||0),0);
+  a.spk_total = [...SPAKINECT_EMAILS].reduce((s,e)=>s+(a.reviewer_counts[e]||0),0);
+  return a;
+}
 
 function getPriorWeeks(weeks) {
   if (!weeks.length) return [];
@@ -334,8 +369,10 @@ function toWeekKey(dateStr) {
 // ── FILTERS ──
 function applyQuick(q) {
   activeQuick = q;
+  activeMonths = null;
   document.querySelectorAll('.quick-btn').forEach(b => b.classList.remove('active'));
-  event.target.classList.add('active');
+  const btn = document.querySelector(`.quick-btn[data-quick="${q}"]`);
+  if (btn) btn.classList.add('active');
   const m = window.DASH_META || {};
   if (q === 'thisweek') {
     activeMonth = null;
@@ -346,16 +383,19 @@ function applyQuick(q) {
   } else if (q === 'thismonth') {
     activeMonth = m.this_month || '2026-04';
     activeWeeks = ALL_WEEKS.filter(w => w >= (m.this_month_start||'') && w <= (m.this_week||''));
-    const tmLabel = activeMonth ? new Date(activeMonth+'-15').toLocaleDateString('en-US',{month:'short',year:'numeric'}) : 'This Month';
-    event.target.textContent = tmLabel;
+    if (btn) btn.textContent = activeMonth ? new Date(activeMonth+'-15').toLocaleDateString('en-US',{month:'short',year:'numeric'}) : 'This Month';
   } else if (q === 'month') {
     activeMonth = m.last_month || '2026-03';
     activeWeeks = ALL_WEEKS.filter(w => w >= (m.last_month_start||'') && w <= (m.last_month_end||''));
-    const lmLabel = activeMonth ? new Date(activeMonth+'-15').toLocaleDateString('en-US',{month:'short',year:'numeric'}) : 'Last Month';
-    event.target.textContent = lmLabel;
+    if (btn) btn.textContent = activeMonth ? new Date(activeMonth+'-15').toLocaleDateString('en-US',{month:'short',year:'numeric'}) : 'Last Month';
   } else if (q === '3month') {
     activeMonth = null;
-    activeWeeks = ALL_WEEKS.filter(w => w >= TREND_WEEKS[0] && w <= TREND_WEEKS[TREND_WEEKS.length-1]);
+    activeMonths = Object.keys(MONTHLY).sort().slice(-3);
+    activeWeeks = ALL_WEEKS.filter(w => activeMonths.includes(w.slice(0,7)));
+  } else if (q === '6month') {
+    activeMonth = null;
+    activeMonths = Object.keys(MONTHLY).sort().slice(-6);
+    activeWeeks = ALL_WEEKS.filter(w => activeMonths.includes(w.slice(0,7)));
   } else {
     activeMonth = null;
     activeWeeks = [...ALL_WEEKS];
@@ -365,6 +405,10 @@ function applyQuick(q) {
     const [y,m] = activeMonth.split('-').map(Number);
     document.getElementById('dateFrom').value = activeMonth + '-01';
     document.getElementById('dateTo').value = new Date(y, m, 0).toISOString().split('T')[0];
+  } else if (activeMonths) {
+    const [ly,lm] = activeMonths[activeMonths.length-1].split('-').map(Number);
+    document.getElementById('dateFrom').value = activeMonths[0] + '-01';
+    document.getElementById('dateTo').value = new Date(ly, lm, 0).toISOString().split('T')[0];
   } else if (activeWeeks.length === 1) {
     document.getElementById('dateFrom').value = activeWeeks[0];
     const sun = new Date(activeWeeks[0] + 'T12:00:00');
@@ -381,6 +425,7 @@ function applyCustom() {
   const from = document.getElementById('dateFrom').value;
   const to = document.getElementById('dateTo').value;
   activeMonth = null;
+  activeMonths = null;
   document.querySelectorAll('.quick-btn').forEach(b => b.classList.remove('active'));
   activeWeeks = ALL_WEEKS.filter(w => {
     const sun = new Date(w + 'T12:00:00');
@@ -403,12 +448,20 @@ function render() {
     const idx = months.indexOf(activeMonth);
     const priorMonth = idx > 0 ? months[idx-1] : null;
     prior = priorMonth ? aggFromMonthly(priorMonth) : agg([]);
+  } else if (activeMonths) {
+    data = aggFromMonths(activeMonths);
+    // Prior N months for trend
+    const allMonths = Object.keys(MONTHLY).sort();
+    const idx = allMonths.indexOf(activeMonths[0]);
+    const priorMonths = allMonths.slice(Math.max(0, idx - activeMonths.length), idx);
+    prior = priorMonths.length ? aggFromMonths(priorMonths) : agg([]);
   } else {
     data = agg(activeWeeks);
     prior = agg(getPriorWeeks(activeWeeks));
   }
   renderHero(data, prior);
   renderKpiTrend();
+  renderKpiMonthlyTrend();
   renderReviewer(data);
   renderTiming(data);
   renderCompletedByGroup(data);
@@ -421,10 +474,10 @@ function renderHero(data, prior) {
   const kpi = data.kpi_pct, col = kpiColor(kpi);
   const kpiDelta = (kpi != null && prior.kpi_pct != null) ? kpi - prior.kpi_pct : null;
   let trendHTML = '';
-  if (kpiDelta != null && activeQuick !== 'all') {
+  if (kpiDelta != null) {
     const cls = kpiDelta > 0.05 ? 'up' : kpiDelta < -0.05 ? 'down' : 'flat';
     const arrow = kpiDelta > 0.05 ? '↑' : kpiDelta < -0.05 ? '↓' : '→';
-    const label = activeQuick === 'thisweek' ? 'prev week' : activeQuick === 'week' ? 'prev week' : activeQuick === 'thismonth' ? 'last month' : activeQuick === 'month' ? 'prev month' : 'prev period';
+    const label = activeQuick === 'thisweek' ? 'prev week' : activeQuick === 'week' ? 'prev week' : activeQuick === 'thismonth' ? 'last month' : activeQuick === 'month' ? 'prev month' : activeQuick === '6month' ? 'prior 6mo' : activeQuick === '3month' ? 'prior 3mo' : 'prev period';
     trendHTML = `<div class="trend-badge ${cls}">${arrow} ${Math.abs(kpiDelta).toFixed(1)}% vs ${label}</div>`;
   }
   document.getElementById('heroRow').innerHTML = `
@@ -475,6 +528,41 @@ function renderKpiTrend() {
     }
   });
   const chart = charts.kpi;
+  const orig = chart.draw.bind(chart);
+  chart.draw = function() {
+    orig();
+    const ctx2=chart.ctx, y95=chart.scales.y.getPixelForValue(95);
+    ctx2.save(); ctx2.beginPath(); ctx2.strokeStyle='#0d9e7355'; ctx2.lineWidth=1.5; ctx2.setLineDash([6,4]);
+    ctx2.moveTo(chart.chartArea.left,y95); ctx2.lineTo(chart.chartArea.right,y95); ctx2.stroke(); ctx2.restore();
+  };
+  chart.draw();
+}
+
+function renderKpiMonthlyTrend() {
+  const canvas = document.getElementById('kpiMonthlyTrendChart');
+  if (!canvas) return;
+  if (charts.kpiMonthly) charts.kpiMonthly.destroy();
+  const months = Object.keys(MONTHLY).sort().slice(-6);
+  const labels = months.map(m => new Date(m+'-15T12:00:00').toLocaleDateString('en-US',{month:'short',year:'2-digit'}));
+  const vals = months.map(m => MONTHLY[m]?.kpi_pct ?? null);
+  const bgColors = vals.map(v => kpiColor(v) + '55');
+  const bdColors = vals.map(v => kpiColor(v));
+  charts.kpiMonthly = new Chart(canvas.getContext('2d'), {
+    type: 'bar',
+    data: { labels, datasets: [{ label:'SLA %', data:vals, backgroundColor:bgColors, borderColor:bdColors, borderWidth:2, borderRadius:4 }] },
+    options: {
+      responsive:true, maintainAspectRatio:false,
+      plugins: { legend:{display:false}, tooltip:{callbacks:{label:ctx=>{
+        const d = MONTHLY[months[ctx.dataIndex]];
+        return ` ${ctx.raw?.toFixed(1)}% (${fmtN(d?.kpi_met)}/${fmtN(d?.kpi_eligible)})`;
+      }}} },
+      scales: {
+        x:{ticks:{color:'#9099a8',font:{size:10}},grid:{display:false}},
+        y:{min:75,max:101,ticks:{color:'#9099a8',callback:v=>v+'%',font:{size:10}},grid:{color:'#e2e5ea'}}
+      }
+    }
+  });
+  const chart = charts.kpiMonthly;
   const orig = chart.draw.bind(chart);
   chart.draw = function() {
     orig();
@@ -592,7 +680,9 @@ function renderDrill() {
     const apptMonth = r.appt.substring(0,7).replace('-','').substring(0,4) + '-' + r.appt.substring(5,7);
     return r.appt.startsWith(activeMonth);
   })) : MISS_RECORDS;
-  const miss = activeMonth ? MISS_RECORDS.filter(r => r.appt.startsWith(activeMonth)) : MISS_RECORDS.filter(r => {
+  const miss = activeMonth ? MISS_RECORDS.filter(r => r.appt.startsWith(activeMonth))
+    : activeMonths ? MISS_RECORDS.filter(r => activeMonths.includes(r.appt.substring(0,7)))
+    : MISS_RECORDS.filter(r => {
     const apptDate = r.appt.split(' ')[0];
     const finDate = r.finished ? r.finished.split(' ')[0] : null;
     const bucketDate = finDate && finDate < apptDate ? finDate : apptDate;
