@@ -9076,40 +9076,6 @@
       "advance_fmt": "38h 38m",
       "finished": null,
       "completed_before": false
-    },
-    {
-      "id": 255962,
-      "client": "K. Pierce",
-      "medspa": "Alaina Gray Aesthetics",
-      "cat": "breck",
-      "segment": "Momentum",
-      "submitted": "2026-07-09 10:00",
-      "appt": "2026-07-15 16:45",
-      "appt_day": "Wed",
-      "sub_day": "Thu",
-      "is_weekend_appt": false,
-      "is_weekend_sub": false,
-      "hrs_advance": 150.8,
-      "advance_fmt": "150h 45m",
-      "finished": null,
-      "completed_before": false
-    },
-    {
-      "id": 257569,
-      "client": "L. Smiith",
-      "medspa": "Alaina Gray Aesthetics",
-      "cat": "breck",
-      "segment": "Momentum",
-      "submitted": "2026-07-13 00:24",
-      "appt": "2026-07-16 14:30",
-      "appt_day": "Thu",
-      "sub_day": "Mon",
-      "is_weekend_appt": false,
-      "is_weekend_sub": false,
-      "hrs_advance": 86.1,
-      "advance_fmt": "86h 6m",
-      "finished": null,
-      "completed_before": false
     }
   ],
   "_monthly": {
