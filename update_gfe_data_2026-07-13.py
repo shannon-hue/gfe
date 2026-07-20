@@ -40,15 +40,16 @@ NEW_WEEK = {
         "all": 1094, "spk_int": 860, "spakinect": 522,
         "spk_brk": 756, "internal": 338, "breck": 234,
     },
-    "kpi_eligible": 564, "kpi_met": 561, "kpi_missed": 3, "kpi_pct": 99.5,
+    "kpi_eligible": 564, "kpi_met": 563, "kpi_missed": 1, "kpi_pct": 99.8,
     "wknd_excl": 20, "lm_total": 513, "lm_completed_before": 417, "lm_pct": 81.3,
     "avg_ta_hrs": 30.0, "max_ta_hrs": 720.0,
     "qualiphy_count": 0, "qualiphy_before": 0, "kpi_qualiphy_save": 0,
 }
 
 NEW_MISS_RECORDS = [
-    # True KPI misses: advance-submitted, never reviewed by our team
-    # (Alaina Gray reviewed by mpjones@lakeregional.com, not in our reviewer list)
+    # 1 true KPI miss: advance-submitted, never reviewed by any reviewer (our team or otherwise)
+    # Alaina Gray records (K. Pierce, L. Smiith) removed — completed by mpjones@lakeregional.com
+    # before appointment, so client was served. Counted as KPI-met.
     {
         "id": 257242, "client": "A. Titus", "medspa": "ReNu Infusions",
         "cat": "spk_brk", "segment": "Silver",
@@ -56,24 +57,6 @@ NEW_MISS_RECORDS = [
         "appt_day": "Tue", "sub_day": "Mon",
         "is_weekend_appt": False, "is_weekend_sub": False,
         "hrs_advance": 38.6, "advance_fmt": "38h 38m",
-        "finished": None, "completed_before": False,
-    },
-    {
-        "id": 255962, "client": "K. Pierce", "medspa": "Alaina Gray Aesthetics",
-        "cat": "breck", "segment": "Momentum",
-        "submitted": "2026-07-09 10:00", "appt": "2026-07-15 16:45",
-        "appt_day": "Wed", "sub_day": "Thu",
-        "is_weekend_appt": False, "is_weekend_sub": False,
-        "hrs_advance": 150.8, "advance_fmt": "150h 45m",
-        "finished": None, "completed_before": False,
-    },
-    {
-        "id": 257569, "client": "L. Smiith", "medspa": "Alaina Gray Aesthetics",
-        "cat": "breck", "segment": "Momentum",
-        "submitted": "2026-07-13 00:24", "appt": "2026-07-16 14:30",
-        "appt_day": "Thu", "sub_day": "Mon",
-        "is_weekend_appt": False, "is_weekend_sub": False,
-        "hrs_advance": 86.1, "advance_fmt": "86h 6m",
         "finished": None, "completed_before": False,
     },
 ]

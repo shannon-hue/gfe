@@ -12247,9 +12247,9 @@
       "breck": 234
     },
     "kpi_eligible": 564,
-    "kpi_met": 561,
-    "kpi_missed": 3,
-    "kpi_pct": 99.5,
+    "kpi_met": 563,
+    "kpi_missed": 1,
+    "kpi_pct": 99.8,
     "wknd_excl": 20,
     "lm_total": 513,
     "lm_completed_before": 417,
