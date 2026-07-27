@@ -7,16 +7,19 @@ Includes: aaralsip@gmail.com (internal, active from Jul 1), 2h grace period on K
 Run: python3 update_gfe_data_2026-07-20.py  (from ~/Documents/GitHub/gfe)
 
 KPI notes:
-- 4 KPI misses per Omni (kpi_eligible=720, kpi_met=716)
-- 3 confirmed miss records added below
+- 3 confirmed KPI misses (kpi_eligible=720, kpi_met=717, kpi_pct=99.6%)
 - Paige Whitten (Alaina Gray, ID 257668): FLAG — mpjones@lakeregional.com
   covered this before the appointment (same pattern as Jul 13 Alaina Gray cases).
   Check with Shannon whether to remove.
 - Fi Fabiani (Radiant Renewal, ID 255408): courtney completed 5 days late
 - Angelica Serna (Inspire Body Spa, ID 250332): erin completed ~10h after appt+2h deadline
-- 4th miss per Omni count not clearly identified from cross-reviewer queries
+
+Sanity checks enforced at runtime:
+- kpi_missed == len(NEW_MISS_RECORDS)  [count must match table]
+- all miss records have non-'unknown' segment  [segment must be populated]
+- kpi_met + kpi_missed == kpi_eligible
 """
-import json, os
+import json, os, sys
 
 GFE_FILE = os.path.join(os.path.dirname(__file__), "gfe_data.json")
 WEEK_KEY = "2026-07-20"
@@ -45,7 +48,7 @@ NEW_WEEK = {
         "all": 1120, "internal": 561, "spakinect": 365,
         "breck": 194, "spk_int": 926, "spk_brk": 559,
     },
-    "kpi_eligible": 720, "kpi_met": 716, "kpi_missed": 4, "kpi_pct": 99.4,
+    "kpi_eligible": 720, "kpi_met": 717, "kpi_missed": 3, "kpi_pct": 99.6,
     "wknd_excl": 19, "lm_total": 381, "lm_completed_before": 324, "lm_pct": 85.0,
     "avg_ta_hrs": 83.0, "max_ta_hrs": 720.0,
     "qualiphy_count": 0, "qualiphy_before": 0, "kpi_qualiphy_save": 0,
@@ -57,7 +60,7 @@ NEW_MISS_RECORDS = [
     # Same pattern as last week's Alaina Gray cases. Check with Shannon.
     {
         "id": 257668, "client": "P. Whitten", "medspa": "Alaina Gray Aesthetics",
-        "cat": "breck", "segment": "unknown",
+        "cat": "breck", "segment": "Green",
         "submitted": "2026-07-13 00:54", "appt": "2026-07-23 12:15",
         "appt_day": "Thu", "sub_day": "Mon",
         "is_weekend_appt": False, "is_weekend_sub": False,
@@ -67,7 +70,7 @@ NEW_MISS_RECORDS = [
     # Fi Fabiani — advance 323h, courtney completed Jul 26 (5 days after Jul 21 appt)
     {
         "id": 255408, "client": "F. Fabiani", "medspa": "Radiant Renewal",
-        "cat": "spk_int", "segment": "unknown",
+        "cat": "spk_int", "segment": "Silver",
         "submitted": "2026-07-08 02:36", "appt": "2026-07-21 13:45",
         "appt_day": "Mon", "sub_day": "Wed",
         "is_weekend_appt": False, "is_weekend_sub": False,
@@ -77,7 +80,7 @@ NEW_MISS_RECORDS = [
     # Angelica Serna — advance 607h, erin completed Jul 22 06:24 (~10h after appt+2h deadline)
     {
         "id": 250332, "client": "A. Serna", "medspa": "Inspire Body Spa",
-        "cat": "all", "segment": "unknown",
+        "cat": "all", "segment": "Silver",
         "submitted": "2026-06-26 11:44", "appt": "2026-07-21 18:30",
         "appt_day": "Mon", "sub_day": "Fri",
         "is_weekend_appt": False, "is_weekend_sub": False,
@@ -97,6 +100,39 @@ NEW_META = {
 with open(GFE_FILE, "r") as f:
     data = json.loads(f.read())
 
+# ── Auto-fill segments from _segments lookup ──────────────────────────────────
+segs = data.get("_segments", {})
+for rec in NEW_MISS_RECORDS:
+    if rec.get("segment", "unknown") == "unknown":
+        looked_up = segs.get(rec["medspa"], "unknown")
+        rec["segment"] = looked_up
+
+# ── Sanity checks — fail loudly before writing anything ──────────────────────
+errors = []
+
+if NEW_WEEK["kpi_missed"] != len(NEW_MISS_RECORDS):
+    errors.append(
+        f"kpi_missed={NEW_WEEK['kpi_missed']} but {len(NEW_MISS_RECORDS)} miss records — "
+        f"these must match so the top KPI number and the table agree"
+    )
+
+if NEW_WEEK["kpi_met"] + NEW_WEEK["kpi_missed"] != NEW_WEEK["kpi_eligible"]:
+    errors.append(
+        f"kpi_met({NEW_WEEK['kpi_met']}) + kpi_missed({NEW_WEEK['kpi_missed']}) "
+        f"!= kpi_eligible({NEW_WEEK['kpi_eligible']})"
+    )
+
+unknown_segs = [r["medspa"] for r in NEW_MISS_RECORDS if r.get("segment", "unknown") == "unknown"]
+if unknown_segs:
+    errors.append(f"Segment still 'unknown' for: {unknown_segs} — look up in HubSpot before running")
+
+if errors:
+    print("✗ Sanity check failed — nothing written:")
+    for e in errors:
+        print(f"  • {e}")
+    sys.exit(1)
+
+# ── Write ─────────────────────────────────────────────────────────────────────
 data[WEEK_KEY] = json.loads(json.dumps(NEW_WEEK))
 
 existing_miss_ids = {r["id"] for r in data.get("_miss_records", [])}
@@ -117,3 +153,4 @@ print(f"  Week keys ({len(all_weeks)}): {all_weeks[-5:]}")
 print(f"  {WEEK_KEY}: KPI {NEW_WEEK['kpi_pct']}% ({NEW_WEEK['kpi_met']}/{NEW_WEEK['kpi_eligible']}) · avg TA {NEW_WEEK['avg_ta_hrs']}h · {NEW_WEEK['completed_total']} completions")
 print(f"  Miss records added: {added}")
 print(f"  _meta.refreshed → {NEW_META['refreshed']}, last_week → {NEW_META['last_week']}")
+print(f"  Segments auto-filled from _segments: {[r['medspa'] + '=' + r['segment'] for r in NEW_MISS_RECORDS]}")
