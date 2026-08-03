@@ -96,7 +96,9 @@ if errors:
     sys.exit(1)
 
 # ── Write ─────────────────────────────────────────────────────────────────────
-data[MONTH_KEY] = json.loads(json.dumps(NEW_MONTH))
+if "_monthly" not in data:
+    data["_monthly"] = {}
+data["_monthly"][MONTH_KEY] = json.loads(json.dumps(NEW_MONTH))
 
 with open(GFE_FILE, "w") as f:
     f.write(json.dumps(data, indent=2))
